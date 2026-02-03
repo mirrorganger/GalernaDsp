@@ -227,6 +227,287 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "HXJN1.27-2X5TPH4.9"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX JN1.27-2X5 TP H4.9"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ":IDC-SMD_10P-P1.27-3220-10-0300-00"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://IDC-SMD_10P-P1.27-3220-10-0300-00.kicad_mod"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C42372555"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HXJN1.27-2X5TPH4.9_0_1"
+			(rectangle
+				(start -3.81 7.62)
+				(end 3.81 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -2.54 6.35)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -6.35 5.08 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 5.08 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 -5.08 180)
+				(length 2.54)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "IDC-SMD_10P-P1.27-3220-10-0300-00.kicad_mod")
+				(type other)
+				(data |KLUv/WA1CiUSAOZYTB8wkR4Pihim2aD55k9YKUUWxvNo3/4Twh8FGCIzAg+oRQBDAEEAGAWzWezZ
+					/lMHCDwIITGihCLizyx/xw+TiAy2zqHVcTfsfhq2hD3nA6cZ5QM+WkoUjghMKBoHi1ZZZVLLOZc6
+					e8VYm8UFbP1iJpTBjqk0814kY/O9rlWqDJMs2TvZdfzadjm+X/l1uQNEKjWLvNlRgtz81DGBwFhA
+					2CvNrV9u+Tf+ksvldcMkAbOfOv7KLVuWyy3ZopcIQgiZgqIEGZLxoVqapBQbglAU54tmbMbeyjSO
+					H0OUbGnu+Bme2ExRUUJ+S/86di2rDRkEL/D86W9WeqXV7XA2jt/vdW2CajWxcP1CsWs9sXAnWRVw
+					dannEz3WX/PKsdfKZpWcD4QiaaIMlUsd/pc+7jS97tgcd6gRupGZkZKCpFAZ1mCKiIwV6+KIGAcm
+					CAOBDIJGgIgRfkdQROLxAXBFBX2p2Wsv12w6A1NvOOROhCzMC6EliWbsJCtVohAUTfhGEoOqPn/G
+					AMJNe6O9awsOGFVWm7r9LIHHChqU/3L5sjFit3nDEmfpnFYIre4dLHqWQcAZCYMYrHPIXgXhH1Ev
+					aNrhiN55RpS4VDWzMUf9A/BEboYHvh65YyF+6NR3VBGuy0ROD3OxVQ0QlTY8cp95xjzwhVVNnfjO
+					k+EZoOIjJy/rPo5szL4cZZHH5/nb1M1AfpKpq+giFT5wzgPzM5tEOgvinC7FJJkGkQct4SUtsHdI
+					GJGjz2zWk3waf/t6hclOWE2x26s=|
+				)
+				(checksum "A341234B61B90F320FDBD208329B0D35")
+			)
+		)
+	)
 	(symbol "RK10J12R0A0B"
 		(exclude_from_sim no)
 		(in_bom yes)
