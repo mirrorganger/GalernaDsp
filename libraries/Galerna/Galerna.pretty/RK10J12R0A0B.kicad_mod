@@ -228,7 +228,7 @@
 		(uuid "52f3362a-dc56-4a41-8536-8f190b4546f7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/RK10J1_R.STEP"
+	(model "${KIPRJMOD}/libraries/Galerna/Galerna.3dmodels/RK10J1_R.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

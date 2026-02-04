@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Galerna")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Galerna.pretty")(options "")(descr ""))
+  (lib (name "Galerna")(type "KiCad")(uri "${KIPRJMOD}/libraries/Galerna/Galerna.pretty")(options "")(descr ""))
 )

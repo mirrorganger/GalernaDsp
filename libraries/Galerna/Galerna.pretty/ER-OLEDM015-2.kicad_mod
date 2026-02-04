@@ -420,7 +420,7 @@
 		(uuid "c1c8c0bc-c64e-4b8e-be8f-558de0650897")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/ER-OLEDM015-2-SPI-I2C.STEP"
+	(model "${KIPRJMOD}/libraries/Galerna/Galerna.3dmodels/ER-OLEDM015-2-SPI-I2C.STEP"
 		(offset
 			(xyz 0 0 2.5)
 		)

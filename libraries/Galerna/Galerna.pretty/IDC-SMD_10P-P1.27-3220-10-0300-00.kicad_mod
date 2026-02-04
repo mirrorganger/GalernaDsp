@@ -313,7 +313,7 @@
 		(uuid "aa66503d-769a-44df-b8d6-e9370f8ad387")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/IDC-SMD_10P-P1.27-3220-10-0300-00.step"
+	(model "${KIPRJMOD}/libraries/Galerna/Galerna.3dmodels/IDC-SMD_10P-P1.27-3220-10-0300-00.step"
 		(offset
 			(xyz -6.4 -2.5 0)
 		)

@@ -424,6 +424,10 @@
     [
       "3237a832-a4e0-4dac-bf7d-0ca39f4bb036",
       "Power"
+    ],
+    [
+      "9ff4b341-54b0-41b8-b594-0e1d528851b1",
+      "Input Control"
     ]
   ],
   "text_variables": {}
