@@ -1,4 +1,4 @@
-15932338837475
+21243826830025
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63280,12 +63280,26 @@ AUDIO-SMD_PJ-320D-1
 6
 4
 Galerna
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+Galerna
 ER-OLEDM015-2
 
 
 0
 11
 11
+Galerna
+HRS_DM3CS-SF
+
+
+0
+13
+13
 Galerna
 IDC-SMD_10P-P1.27-3220-10-0300-00
 
@@ -63321,6 +63335,13 @@ SW-SMD_L3.9-W3.0-P4.45
 0
 2
 2
+Galerna
+SW-TH_SHOU-HAN_SS12D10G4
+
+
+0
+3
+3
 Galerna
 SW4_1825910-B_TEC
 
