@@ -2616,7 +2616,7 @@
 	)
 	(rectangle
 		(start 13.97 80.01)
-		(end 96.52 153.035)
+		(end 104.14 153.035)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -2627,7 +2627,7 @@
 		(uuid 5a9bcfd8-426f-4d85-982c-ec09b9a19961)
 	)
 	(rectangle
-		(start 99.06 14.605)
+		(start 105.41 14.605)
 		(end 284.48 161.925)
 		(stroke
 			(width 0)
@@ -3318,6 +3318,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8248a9f3-f8ed-48ce-b9ca-b5a69ceaa163")
+	)
+	(wire
+		(pts
 			(xy 207.01 142.24) (xy 166.37 142.24)
 		)
 		(stroke
@@ -3495,6 +3505,16 @@
 			(type default)
 		)
 		(uuid "a427b0d2-6a30-4e49-b3b0-14fc6cd01391")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4285b81-85e7-4772-bd22-e77b13f1ff00")
 	)
 	(wire
 		(pts
@@ -3875,6 +3895,50 @@
 			(justify left bottom)
 		)
 		(uuid "b937aa75-9b7e-4e94-9d54-1593aae59eff")
+	)
+	(global_label "MCU_USB_D-"
+		(shape input)
+		(at 86.36 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b53e342-f747-41da-8706-57bb17494796")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.9847 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_USB_D+"
+		(shape input)
+		(at 86.36 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6900b267-3096-434b-8ba1-1465d5573d6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.9847 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4319,12 +4383,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 217.17 100.33 0)
+		(property "Value" "+3V3"
+			(at 219.71 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5343,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 196.85 43.1799 0)
 			(effects
 				(font
