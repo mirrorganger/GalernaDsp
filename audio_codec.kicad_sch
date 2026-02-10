@@ -1781,7 +1781,7 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 5.08)
 					(name "P2"
@@ -1799,7 +1799,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 10.16 270)
 					(length 5.08)
 					(name "P5"
@@ -1817,7 +1817,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -12.7 90)
 					(length 5.08)
 					(name "P1"
@@ -1835,7 +1835,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 5.08 10.16 270)
 					(length 5.08)
 					(name "P4"
@@ -1853,7 +1853,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "P3"
@@ -2100,6 +2100,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Audio Codec\n===========\n\nDecoupling capacitors\n\nFor each supply pin (or each supply \"domain\" pin):\n\n1× 100 nF MLCC placed right at that pin (same side, shortest loop to GND)\n\nPer rail (shared):\n\n1× bulk cap (typically 4.7-10 µF) near the codec on that rail\n\nThis gives:\n\nHF stability (100 nF)\n\nMF/LF charge storage (bulk)"
 		(exclude_from_sim no)
@@ -2206,6 +2307,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477fde96-331a-45be-a88c-aa7aad1d60c2")
+	)
+	(junction
+		(at 63.5 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54f37fa9-1097-4158-b247-43f5dc93660c")
 	)
 	(junction
 		(at 92.71 30.48)
@@ -2833,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 96.52) (xy 63.5 100.33)
+			(xy 63.5 96.52) (xy 63.5 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3010,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "85107e03-c54b-4d39-9f51-38c24c188a54")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 63.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a816d3-583c-4da6-93ef-1262bee3daf4")
 	)
 	(wire
 		(pts
@@ -3923,7 +4040,7 @@
 			)
 		)
 	)
-	(global_label "IS2_MCk"
+	(global_label "I2S_MCK"
 		(shape input)
 		(at 45.72 81.28 180)
 		(fields_autoplaced yes)
@@ -3935,7 +4052,7 @@
 		)
 		(uuid "2a1d1f28-1e6d-4fdb-9854-320791aee6d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9939 81.28 0)
+			(at 34.752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 105.41 20.32 0)
 			(effects
 				(font
@@ -5931,6 +6048,73 @@
 			(project "audio_codec"
 				(path "/e3b3de50-cc7b-41ec-a880-fcc1cb4fca88"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700ec47e-75f3-41b3-aa3a-289265d98719")
+		(property "Reference" "#FLG04"
+			(at 61.595 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4741aedb-5bfe-4375-9532-41a0dbd7bb75")
+		)
+		(instances
+			(project ""
+				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/c8eca522-3096-4cb1-b457-c66eaba9f73c"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7660,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -8337,7 +8521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2"
+		(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
 			(at 212.09 130.81 0)
 			(effects
 				(font

@@ -1613,7 +1613,7 @@
 				)
 			)
 			(symbol "PTV09A-4225F-B104_0_0"
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "~"
@@ -1631,7 +1631,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "~"
@@ -1649,7 +1649,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "~"
@@ -2181,16 +2181,6 @@
 			(type default)
 		)
 		(uuid "00a2e614-dcda-428c-b30d-cf9474cb80f0")
-	)
-	(wire
-		(pts
-			(xy 195.58 101.6) (xy 195.58 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "035d53d6-f348-44ff-ae3a-6effdc827c6b")
 	)
 	(wire
 		(pts
@@ -3121,16 +3111,6 @@
 			(type default)
 		)
 		(uuid "cd5b609a-e311-4338-a349-df6607192ff0")
-	)
-	(wire
-		(pts
-			(xy 195.58 52.07) (xy 195.58 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0fcf488-eaa5-493a-b9bc-3e36668db112")
 	)
 	(wire
 		(pts
@@ -4603,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VD"
+		(property "Value" "+3V3"
 			(at 125.476 50.546 0)
 			(effects
 				(font
