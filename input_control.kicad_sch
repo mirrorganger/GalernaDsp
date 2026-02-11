@@ -1947,8 +1947,8 @@
 		)
 	)
 	(rectangle
-		(start 63.5 180.34)
-		(end 63.5 180.34)
+		(start 63.5 186.69)
+		(end 63.5 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -1959,8 +1959,8 @@
 		(uuid 5ca7ff48-bacf-4dc0-9093-2e3abe6e40a2)
 	)
 	(rectangle
-		(start 22.86 121.92)
-		(end 88.9 180.34)
+		(start 22.86 128.27)
+		(end 88.9 186.69)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -1971,8 +1971,8 @@
 		(uuid 91c8501b-e5e0-4871-80e2-2d96a47d28d0)
 	)
 	(rectangle
-		(start 96.52 121.92)
-		(end 162.56 180.34)
+		(start 96.52 128.27)
+		(end 162.56 186.69)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -1983,8 +1983,8 @@
 		(uuid b555a5b3-d0b9-480b-bfcb-247cdce3b603)
 	)
 	(rectangle
-		(start 22.86 15.24)
-		(end 254 116.84)
+		(start 22.86 22.86)
+		(end 254 119.38)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -1996,43 +1996,52 @@
 	)
 	(text "BUTTONS"
 		(exclude_from_sim no)
-		(at 106.426 184.912 0)
+		(at 104.902 125.984 0)
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(thickness 0.3175)
 			)
 		)
 		(uuid "1b643967-0e16-4fff-92b7-37beebf887f0")
 	)
 	(text "SWITCHES"
 		(exclude_from_sim no)
-		(at 32.258 184.404 0)
+		(at 30.734 126.238 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(size 2.286 2.286)
+				(thickness 0.2858)
 			)
 		)
 		(uuid "1c948833-ff94-4680-9f84-2713b1aa7ba1")
 	)
 	(text "POTENTIOMETERS"
 		(exclude_from_sim no)
-		(at 238.252 120.142 0)
+		(at 239.522 124.206 0)
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(thickness 0.3175)
 			)
 		)
 		(uuid "4d86cbaf-c3b3-465e-b4a4-ffa1da17798d")
 	)
+	(text "[3]INPUT CONTROL"
+		(exclude_from_sim no)
+		(at 228.6 143.002 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c533078f-0c08-49a9-868d-179b6459621c")
+	)
 	(text "Fc=1.6kHz"
 		(exclude_from_sim no)
-		(at 130.302 18.034 0)
+		(at 131.572 26.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,140 +2050,140 @@
 		(uuid "de5a5332-4353-4091-854d-20874584c721")
 	)
 	(junction
-		(at 195.58 53.34)
+		(at 195.58 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a4d28e6-92db-4416-a680-ff2963c09f0e")
 	)
 	(junction
-		(at 119.38 162.56)
+		(at 119.38 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44d2ad38-4b13-430c-95f5-3ba0062447d0")
 	)
 	(junction
-		(at 107.95 73.66)
+		(at 109.22 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f4d890d-23f5-4a61-ac42-663dabd09f06")
 	)
 	(junction
-		(at 185.42 80.01)
+		(at 185.42 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55da6798-71f5-4c9f-918f-d1992e22c814")
 	)
 	(junction
-		(at 148.59 137.16)
+		(at 148.59 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c921aaa-a040-47ca-b279-9daf01b83a5c")
 	)
 	(junction
-		(at 29.21 36.83)
+		(at 30.48 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "641adbf6-64b1-4b87-a6d3-b156a73463ff")
 	)
 	(junction
-		(at 148.59 162.56)
+		(at 148.59 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78a75c75-f1a6-4db2-9fd9-b32a34bc32bb")
 	)
 	(junction
-		(at 213.36 80.01)
+		(at 213.36 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "830f30df-5d88-42de-b08e-9473aea91e12")
 	)
 	(junction
-		(at 185.42 30.48)
+		(at 185.42 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89ccfe5b-c0bb-4a85-84c5-b7b51ef3e2bf")
 	)
 	(junction
-		(at 119.38 137.16)
+		(at 119.38 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b7a328-a32b-4b01-8178-deec82a8443e")
 	)
 	(junction
-		(at 120.65 57.15)
+		(at 121.92 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3eade29-e7f0-48a0-9f99-68f701e5c05b")
 	)
 	(junction
-		(at 185.42 53.34)
+		(at 185.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8f8414-b948-4665-8305-58c1c14c626a")
 	)
 	(junction
-		(at 195.58 102.87)
+		(at 195.58 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3adc9a8-d4db-4efc-aefe-ffc117d593ba")
 	)
 	(junction
-		(at 29.21 39.37)
+		(at 30.48 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b62782bd-0c1a-4afe-99d6-d39d2faafa43")
 	)
 	(junction
-		(at 195.58 80.01)
+		(at 195.58 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c774c219-b9bb-4938-84a1-d38eaf8f369e")
 	)
 	(junction
-		(at 195.58 30.48)
+		(at 195.58 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d598eef0-2325-4efa-bede-981746796937")
 	)
 	(junction
-		(at 185.42 102.87)
+		(at 185.42 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8282d80-8f3c-4bb2-98e0-261ff4fd70e7")
 	)
 	(junction
-		(at 213.36 53.34)
+		(at 213.36 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd81aaa8-a3b7-4ff4-8264-f2f8bbe2842d")
 	)
 	(junction
-		(at 213.36 102.87)
+		(at 213.36 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b2242d-de69-4e7c-ba87-6bb5f7cc9b03")
 	)
 	(junction
-		(at 107.95 57.15)
+		(at 109.22 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e86ac1be-fa57-4bbc-8b5b-aec227cfd780")
 	)
 	(junction
-		(at 213.36 30.48)
+		(at 213.36 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f43390eb-7f77-4591-815c-9fa026d8893c")
 	)
 	(junction
-		(at 121.92 25.4)
+		(at 123.19 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a63a2b-3be8-4dc0-9826-ca5cc5eeac38")
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 152.4 146.05)
+			(xy 152.4 143.51) (xy 152.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 185.42 87.63)
+			(xy 185.42 82.55) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2203,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 25.4) (xy 127 25.4)
+			(xy 123.19 34.29) (xy 128.27 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 134.62) (xy 148.59 137.16)
+			(xy 148.59 140.97) (xy 148.59 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2214,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 135.89) (xy 76.2 135.89)
+			(xy 69.85 142.24) (xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2224,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 165.1) (xy 119.38 162.56)
+			(xy 119.38 171.45) (xy 119.38 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2234,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 120.65 57.15)
+			(xy 127 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 30.48) (xy 195.58 30.48)
+			(xy 213.36 33.02) (xy 195.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2254,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 30.48) (xy 185.42 30.48)
+			(xy 157.48 33.02) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2264,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 30.48) (xy 185.42 38.1)
+			(xy 185.42 33.02) (xy 185.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 107.95 77.47)
+			(xy 109.22 82.55) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 185.42 102.87)
+			(xy 157.48 105.41) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 41.91) (xy 106.68 41.91)
+			(xy 76.2 50.8) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 170.18) (xy 76.2 170.18)
+			(xy 69.85 176.53) (xy 76.2 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 30.48) (xy 213.36 30.48)
+			(xy 241.3 33.02) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2324,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 162.56) (xy 148.59 162.56)
+			(xy 152.4 168.91) (xy 148.59 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 25.4) (xy 121.92 30.48)
+			(xy 123.19 34.29) (xy 123.19 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 120.65 57.15)
+			(xy 109.22 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2354,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 25.4) (xy 121.92 25.4)
+			(xy 119.38 34.29) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2364,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 157.48 80.01)
+			(xy 157.48 90.17) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2374,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 165.1) (xy 144.78 165.1)
+			(xy 148.59 171.45) (xy 144.78 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 138.43) (xy 54.61 138.43)
+			(xy 46.99 144.78) (xy 54.61 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 137.16) (xy 119.38 137.16)
+			(xy 114.3 143.51) (xy 119.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 107.95 62.23)
+			(xy 109.22 66.04) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 195.58 80.01)
+			(xy 195.58 78.74) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 25.4) (xy 29.21 36.83)
+			(xy 30.48 34.29) (xy 30.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 39.37 36.83)
+			(xy 30.48 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 48.26) (xy 213.36 53.34)
+			(xy 213.36 50.8) (xy 213.36 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 107.95 73.66)
+			(xy 121.92 82.55) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 213.36 80.01)
+			(xy 241.3 82.55) (xy 213.36 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 140.97) (xy 76.2 144.78)
+			(xy 76.2 147.32) (xy 76.2 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 137.16) (xy 119.38 134.62)
+			(xy 119.38 143.51) (xy 119.38 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 25.4) (xy 106.68 41.91)
+			(xy 107.95 34.29) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 97.79) (xy 241.3 102.87)
+			(xy 241.3 100.33) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 82.55 52.07)
+			(xy 76.2 60.96) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 67.31) (xy 82.55 67.31)
+			(xy 76.2 76.2) (xy 83.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 102.87 44.45)
+			(xy 76.2 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 48.26) (xy 241.3 53.34)
+			(xy 241.3 50.8) (xy 241.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 29.21 39.37)
+			(xy 30.48 45.72) (xy 30.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 213.36 53.34)
+			(xy 195.58 55.88) (xy 213.36 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 195.58 80.01)
+			(xy 185.42 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 92.71) (xy 203.2 92.71)
+			(xy 208.28 95.25) (xy 203.2 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 25.4) (xy 110.49 25.4)
+			(xy 107.95 34.29) (xy 111.76 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 170.18) (xy 76.2 173.99)
+			(xy 76.2 176.53) (xy 76.2 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 135.89) (xy 76.2 132.08)
+			(xy 76.2 142.24) (xy 76.2 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 147.32 43.18)
+			(xy 152.4 45.72) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 162.56) (xy 119.38 160.02)
+			(xy 119.38 168.91) (xy 119.38 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 165.1) (xy 76.2 162.56)
+			(xy 76.2 171.45) (xy 76.2 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2654,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 87.63) (xy 82.55 87.63)
+			(xy 76.2 96.52) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2664,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 148.59 137.16)
+			(xy 152.4 143.51) (xy 148.59 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 213.36 102.87)
+			(xy 195.58 105.41) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 82.55 36.83)
+			(xy 76.2 45.72) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 160.02) (xy 148.59 160.02)
+			(xy 144.78 166.37) (xy 148.59 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 160.02) (xy 148.59 162.56)
+			(xy 148.59 166.37) (xy 148.59 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 195.58 102.87)
+			(xy 185.42 105.41) (xy 195.58 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2724,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 92.71) (xy 175.26 92.71)
+			(xy 180.34 95.25) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 82.55 77.47)
+			(xy 76.2 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 82.55 82.55)
+			(xy 76.2 91.44) (xy 83.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 160.02) (xy 124.46 160.02)
+			(xy 119.38 166.37) (xy 124.46 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 162.56) (xy 152.4 171.45)
+			(xy 152.4 168.91) (xy 152.4 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2774,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 82.55 57.15)
+			(xy 76.2 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 39.37) (xy 39.37 39.37)
+			(xy 30.48 48.26) (xy 40.64 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2803,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 53.34) (xy 185.42 53.34)
+			(xy 157.48 55.88) (xy 185.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 80.01) (xy 213.36 87.63)
+			(xy 213.36 82.55) (xy 213.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 46.99) (xy 107.95 46.99)
+			(xy 76.2 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 137.16) (xy 148.59 139.7)
+			(xy 148.59 143.51) (xy 148.59 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 107.95 57.15)
+			(xy 109.22 55.88) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 87.63) (xy 241.3 80.01)
+			(xy 241.3 90.17) (xy 241.3 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 30.48) (xy 213.36 38.1)
+			(xy 213.36 33.02) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2873,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 26.67) (xy 195.58 30.48)
+			(xy 195.58 29.21) (xy 195.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 119.38 162.56)
+			(xy 114.3 168.91) (xy 119.38 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2884,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 125.73 57.15)
+			(xy 127 63.5) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 134.62) (xy 148.59 134.62)
+			(xy 144.78 140.97) (xy 148.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 162.56) (xy 148.59 165.1)
+			(xy 148.59 168.91) (xy 148.59 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 139.7) (xy 144.78 139.7)
+			(xy 148.59 146.05) (xy 144.78 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 82.55 39.37)
+			(xy 76.2 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2934,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 165.1) (xy 76.2 165.1)
+			(xy 69.85 171.45) (xy 76.2 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 134.62) (xy 124.46 134.62)
+			(xy 119.38 140.97) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 30.48) (xy 195.58 30.48)
+			(xy 185.42 33.02) (xy 195.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 102.87)
+			(xy 157.48 100.33) (xy 157.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 97.79) (xy 213.36 102.87)
+			(xy 213.36 100.33) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 185.42 102.87)
+			(xy 185.42 100.33) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 43.18) (xy 203.2 43.18)
+			(xy 208.28 45.72) (xy 203.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 140.97) (xy 76.2 140.97)
+			(xy 69.85 147.32) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 38.1) (xy 241.3 30.48)
+			(xy 241.3 40.64) (xy 241.3 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 44.45) (xy 29.21 39.37)
+			(xy 30.48 53.34) (xy 30.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 195.58 107.95)
+			(xy 195.58 105.41) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 92.71) (xy 147.32 92.71)
+			(xy 152.4 95.25) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3054,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 165.1) (xy 119.38 165.1)
+			(xy 124.46 171.45) (xy 119.38 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 102.87 25.4)
+			(xy 104.14 53.34) (xy 104.14 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3074,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 43.18) (xy 231.14 43.18)
+			(xy 236.22 45.72) (xy 231.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 119.38 137.16)
+			(xy 119.38 146.05) (xy 119.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 231.14 92.71)
+			(xy 236.22 95.25) (xy 231.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 185.42 80.01)
+			(xy 157.48 82.55) (xy 185.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 53.34) (xy 241.3 53.34)
+			(xy 213.36 55.88) (xy 241.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 167.64) (xy 54.61 167.64)
+			(xy 46.99 173.99) (xy 54.61 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 82.55 72.39)
+			(xy 76.2 81.28) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 38.1) (xy 157.48 30.48)
+			(xy 157.48 40.64) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 38.1) (xy 121.92 40.64)
+			(xy 123.19 46.99) (xy 123.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 53.34) (xy 195.58 53.34)
+			(xy 185.42 55.88) (xy 195.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 25.4) (xy 29.21 25.4)
+			(xy 104.14 34.29) (xy 30.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 120.65 73.66)
+			(xy 121.92 78.74) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 157.48 53.34)
+			(xy 157.48 50.8) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 241.3 102.87)
+			(xy 213.36 105.41) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 195.58 58.42)
+			(xy 195.58 55.88) (xy 195.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 82.55 92.71)
+			(xy 76.2 101.6) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 53.34)
+			(xy 185.42 50.8) (xy 185.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3244,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 62.23) (xy 82.55 62.23)
+			(xy 76.2 71.12) (xy 83.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 43.18) (xy 175.26 43.18)
+			(xy 180.34 45.72) (xy 175.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3264,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 119.38 139.7)
+			(xy 124.46 146.05) (xy 119.38 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +3283,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 62.23) (xy 120.65 57.15)
+			(xy 121.92 71.12) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 80.01) (xy 195.58 80.01)
+			(xy 213.36 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 107.95 73.66)
+			(xy 109.22 78.74) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3303,7 +3312,7 @@
 		(uuid "fcbe4d7f-f3ad-4e2f-80de-dad8e1e5fa2a")
 	)
 	(label "POT_7_CTL"
-		(at 231.14 92.71 180)
+		(at 231.14 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3313,7 +3322,7 @@
 		(uuid "03864d79-38e4-4107-b88e-2a2486aa9258")
 	)
 	(label "POT_6_CTL"
-		(at 82.55 82.55 0)
+		(at 83.82 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3323,7 +3332,7 @@
 		(uuid "03ac507e-665b-4b0e-b655-49ab33afd5a2")
 	)
 	(label "POT_4_CTL"
-		(at 147.32 92.71 180)
+		(at 147.32 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,7 +3342,7 @@
 		(uuid "04743d23-6fa4-44ba-98bf-67295851b5ab")
 	)
 	(label "POT_1_CTL"
-		(at 82.55 57.15 0)
+		(at 83.82 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3343,7 +3352,7 @@
 		(uuid "132d20af-a0f4-4c9c-9eee-ac91ef8074d0")
 	)
 	(label "POT_5_CTL"
-		(at 175.26 92.71 180)
+		(at 175.26 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3353,7 +3362,7 @@
 		(uuid "2ba616ce-f89f-4d93-a82b-f467af138a37")
 	)
 	(label "POT_2_CTL"
-		(at 203.2 43.18 180)
+		(at 203.2 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3363,7 +3372,7 @@
 		(uuid "34141fe7-1896-45d2-9bcb-5c26e9803e45")
 	)
 	(label "POT_0_CTL"
-		(at 82.55 52.07 0)
+		(at 83.82 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3373,7 +3382,7 @@
 		(uuid "3e5cc41b-e191-4579-8c16-95fa27cb4553")
 	)
 	(label "POT_3_CTL"
-		(at 231.14 43.18 180)
+		(at 231.14 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3383,7 +3392,7 @@
 		(uuid "47c7947c-3db0-4358-95cc-464260b1bc2f")
 	)
 	(label "POT_2_CTL"
-		(at 82.55 62.23 0)
+		(at 83.82 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3393,7 +3402,7 @@
 		(uuid "5853d75c-0e12-460c-8e22-a77f3c7aa774")
 	)
 	(label "POT_5_CTL"
-		(at 82.55 77.47 0)
+		(at 83.82 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3403,7 +3412,7 @@
 		(uuid "74373dbe-3b8b-49c6-a356-554c5d056096")
 	)
 	(label "POT_1_CTL"
-		(at 175.26 43.18 180)
+		(at 175.26 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3413,7 +3422,7 @@
 		(uuid "95854465-9ba2-447d-855c-a0e622469f6e")
 	)
 	(label "POT_6_CTL"
-		(at 203.2 92.71 180)
+		(at 203.2 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,7 +3432,7 @@
 		(uuid "b1283002-7a4a-4df4-963e-bf0601291c54")
 	)
 	(label "POT_4_CTL"
-		(at 82.55 72.39 0)
+		(at 83.82 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3433,7 +3442,7 @@
 		(uuid "b936ab6b-57df-4c04-81bd-8b8aee939204")
 	)
 	(label "POT_3_CTL"
-		(at 82.55 67.31 0)
+		(at 83.82 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3443,7 +3452,7 @@
 		(uuid "b94a25fa-f03f-40df-85a9-bb0596125ede")
 	)
 	(label "POT_0_CTL"
-		(at 147.32 43.18 180)
+		(at 147.32 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3453,7 +3462,7 @@
 		(uuid "d9046272-ac80-4c57-969f-599ccdeea3a0")
 	)
 	(label "POT_7_CTL"
-		(at 82.55 87.63 0)
+		(at 83.82 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3464,7 +3473,7 @@
 	)
 	(global_label "POT_MUX_SEL_2"
 		(shape input)
-		(at 82.55 92.71 0)
+		(at 83.82 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3474,7 +3483,7 @@
 		)
 		(uuid "30ebc1da-005b-493f-b7f3-7fd77dfe66aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5936 92.71 0)
+			(at 101.8636 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3495,7 @@
 	)
 	(global_label "SW_0"
 		(shape input)
-		(at 46.99 138.43 180)
+		(at 46.99 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3496,7 +3505,7 @@
 		)
 		(uuid "31eba169-8762-4081-afc7-a5dd03361963")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1668 138.43 0)
+			(at 39.1668 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3517,7 @@
 	)
 	(global_label "PUSH_BTN_1"
 		(shape input)
-		(at 114.3 162.56 180)
+		(at 114.3 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3518,7 +3527,7 @@
 		)
 		(uuid "614b3a51-4333-4c36-a1c2-88dac7875065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4615 162.56 0)
+			(at 99.4615 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3539,7 @@
 	)
 	(global_label "SW_1"
 		(shape input)
-		(at 46.99 167.64 180)
+		(at 46.99 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3540,7 +3549,7 @@
 		)
 		(uuid "a2f4fee6-c08e-4a8d-a0dc-73c013237a41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1668 167.64 0)
+			(at 39.1668 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3561,7 @@
 	)
 	(global_label "PUSH_BTN_0"
 		(shape input)
-		(at 114.3 137.16 180)
+		(at 114.3 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3562,7 +3571,7 @@
 		)
 		(uuid "b906f51e-bf6c-4dd6-be86-8c2b8c04ea7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4615 137.16 0)
+			(at 99.4615 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3583,7 @@
 	)
 	(global_label "POT_MUX_ADC"
 		(shape input)
-		(at 127 25.4 0)
+		(at 128.27 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3584,7 +3593,7 @@
 		)
 		(uuid "bd7744b0-af23-418d-9617-7cf4b60b1c44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1085 25.4 0)
+			(at 144.3785 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3605,7 @@
 	)
 	(global_label "POT_MUX_SEL_0"
 		(shape input)
-		(at 82.55 36.83 0)
+		(at 83.82 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3606,7 +3615,7 @@
 		)
 		(uuid "d75677de-e021-46be-bedc-6040fd2d3177")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5936 36.83 0)
+			(at 101.8636 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3627,7 @@
 	)
 	(global_label "POT_MUX_SEL_1"
 		(shape input)
-		(at 82.55 39.37 0)
+		(at 83.82 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3628,7 +3637,7 @@
 		)
 		(uuid "de0fc5b5-71b4-486a-b374-930239f99104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5936 39.37 0)
+			(at 101.8636 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 25.4 90)
+		(at 115.57 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3648,8 +3657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0007ac31-43ee-45e7-adca-8f8ff8677b10")
-		(property "Reference" "R10"
-			(at 114.3 19.05 90)
+		(property "Reference" "R400"
+			(at 115.57 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,15 +3666,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 114.3 21.59 90)
+			(at 115.57 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 27.178 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 25.4 0)
+			(at 115.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3692,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 25.4 0)
+			(at 115.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3709,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "R10")
+					(reference "R400")
 					(unit 1)
 				)
 			)
@@ -3708,16 +3717,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 241.3 43.18 0)
+		(at 241.3 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09d19371-f2b3-4353-9439-662a4c6c0892")
-		(property "Reference" "VR4"
-			(at 243.84 43.1799 0)
+		(property "Reference" "VR406"
+			(at 243.84 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3734,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 243.84 44.4499 0)
+			(at 243.84 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3744,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +3772,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3782,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3792,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3802,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3812,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3822,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3832,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3842,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3852,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3862,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 241.3 43.18 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3883,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR4")
+					(reference "VR406")
 					(unit 1)
 				)
 			)
@@ -3883,16 +3891,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 157.48 92.71 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fbd25ed-d118-4c96-a11c-c677abe94baa")
-		(property "Reference" "VR5"
-			(at 160.02 92.7099 0)
+		(property "Reference" "VR401"
+			(at 160.02 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3908,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 160.02 93.9799 0)
+			(at 160.02 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3918,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3946,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3956,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3966,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3976,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3986,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3996,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4006,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4016,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4026,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4036,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 157.48 92.71 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4057,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR5")
+					(reference "VR401")
 					(unit 1)
 				)
 			)
@@ -4058,7 +4065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 144.78 0)
+		(at 76.2 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,8 +4073,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b64f60-67d1-47c8-9d48-cd67f8b48bba")
-		(property "Reference" "#PWR032"
-			(at 76.2 151.13 0)
+		(property "Reference" "#PWR0402"
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 149.86 0)
+			(at 76.2 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 144.78 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 144.78 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 144.78 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4123,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR032")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -4124,7 +4131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 77.47 0)
+		(at 109.22 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4132,8 +4139,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f0b4bc-e185-467a-abc8-fd4046c57935")
-		(property "Reference" "#PWR024"
-			(at 107.95 83.82 0)
+		(property "Reference" "#PWR0405"
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 82.55 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 77.47 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 77.47 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 77.47 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4189,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR024")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -4190,15 +4197,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 76.2 132.08 0)
+		(at 76.2 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1842950c-0479-453a-ae92-4024c39a50a6")
-		(property "Reference" "#PWR029"
-			(at 76.2 135.89 0)
+		(property "Reference" "#PWR0401"
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4214,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.898 127.762 0)
+			(at 72.898 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 132.08 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 132.08 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 132.08 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4255,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR029")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -4256,15 +4263,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 76.2 162.56 0)
+		(at 76.2 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2124f5c0-52a5-4cf9-937d-88945f77a346")
-		(property "Reference" "#PWR030"
-			(at 76.2 166.37 0)
+		(property "Reference" "#PWR0403"
+			(at 76.2 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4280,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.898 158.242 0)
+			(at 72.898 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 162.56 0)
+			(at 76.2 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 162.56 0)
+			(at 76.2 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 162.56 0)
+			(at 76.2 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4321,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR030")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -4322,7 +4329,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 66.04 0)
+		(at 121.92 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4330,8 +4337,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a7384b-71ab-4f19-b65a-ca3794c231b2")
-		(property "Reference" "C21"
-			(at 124.46 64.7699 0)
+		(property "Reference" "C401"
+			(at 125.73 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4347,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 124.46 67.3099 0)
+			(at 125.73 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,8 +4355,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.6152 69.85 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 122.8852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 66.04 0)
+			(at 121.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4374,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 66.04 0)
+			(at 121.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4391,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C21")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -4392,16 +4399,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 241.3 92.71 0)
+		(at 241.3 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38a43d75-3859-45e4-b07f-e1ac7dd8605d")
-		(property "Reference" "VR8"
-			(at 243.84 92.7099 0)
+		(property "Reference" "VR407"
+			(at 243.84 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4416,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 243.84 93.9799 0)
+			(at 243.84 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4426,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4454,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4464,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4474,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4484,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +4494,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4504,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4514,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4524,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4534,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4544,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 241.3 92.71 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4565,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR8")
+					(reference "VR407")
 					(unit 1)
 				)
 			)
@@ -4567,15 +4573,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 125.73 54.61 0)
+		(at 127 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "41d48587-7535-4c82-9095-3d1b4b7a9f2f")
-		(property "Reference" "#PWR025"
-			(at 125.73 58.42 0)
+		(property "Reference" "#PWR0407"
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4590,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 125.476 50.546 0)
+			(at 126.746 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 54.61 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 54.61 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 54.61 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4630,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR025")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -4632,16 +4638,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 185.42 43.18 0)
+		(at 185.42 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e11fa28-9dc7-4e9a-9046-cfe7cac9871a")
-		(property "Reference" "VR2"
-			(at 187.96 43.1799 0)
+		(property "Reference" "VR402"
+			(at 187.96 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4655,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 187.96 44.4499 0)
+			(at 187.96 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4665,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4693,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4703,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4713,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4723,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4733,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4743,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4753,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4763,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4773,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4783,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 185.42 43.18 0)
+			(at 185.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4804,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR2")
+					(reference "VR402")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4812,7 @@
 	)
 	(symbol
 		(lib_id "Galerna:100SP1T1B4M2QE")
-		(at 62.23 167.64 0)
+		(at 62.23 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4815,8 +4820,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7255b039-4c41-4b1c-8517-7a4a00485e40")
-		(property "Reference" "SW2"
-			(at 62.23 160.02 0)
+		(property "Reference" "SW401"
+			(at 62.23 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4829,7 @@
 			)
 		)
 		(property "Value" "100SP1T1B4M2QE"
-			(at 62.23 162.56 0)
+			(at 62.23 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4837,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:SW_100SP1T1B4M2QE"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4865,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4875,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "29.68 mm"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4885,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4895,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4905,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/100SP1T1B4M2QE/E-Switch/view-part/?ref=eda"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4915,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4925,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4935,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/100SP1T1B4M2QE/E-Switch/view-part/?ref=snap"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4945,7 @@
 			)
 		)
 		(property "MP" "100SP1T1B4M2QE"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4955,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=846138&manufacturer=E-Switch&part_name=100SP1T1B4M2QE&search_term=None"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4965,7 @@
 			)
 		)
 		(property "Description_1" "Toggle Switch, 100 Series, SPDT, ON-NONE-ON, Sealed, 5A, 120VAC, 28VDC, PC Pin | E-Switch 100SP1T1B4M2QE"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4975,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4985,7 @@
 			)
 		)
 		(property "MANUFACTURER" "E-Switch"
-			(at 62.23 167.64 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5006,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "SW2")
+					(reference "SW401")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5014,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 34.29 0)
+		(at 123.19 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,8 +5022,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab65126-5329-4143-ae05-dc53129d9ffb")
-		(property "Reference" "C22"
-			(at 125.73 33.0199 0)
+		(property "Reference" "C402"
+			(at 127 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5032,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 125.73 35.5599 0)
+			(at 127 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,8 +5040,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 122.8852 38.1 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 124.1552 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 34.29 0)
+			(at 123.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5059,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 34.29 0)
+			(at 123.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5076,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C22")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -5079,16 +5084,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 157.48 43.18 0)
+		(at 157.48 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8403e076-a8c6-4333-b233-5191ea45f645")
-		(property "Reference" "VR1"
-			(at 160.02 43.1799 0)
+		(property "Reference" "VR400"
+			(at 160.02 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5101,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 160.02 44.4499 0)
+			(at 160.02 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5111,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5139,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5149,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5159,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5169,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5179,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5189,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5199,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5209,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5219,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5229,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 157.48 43.18 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5250,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR1")
+					(reference "VR400")
 					(unit 1)
 				)
 			)
@@ -5254,7 +5258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 58.42 0)
+		(at 195.58 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5262,8 +5266,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89242b19-3cd6-4f23-9b51-ccbd4cb3b643")
-		(property "Reference" "#PWR0123"
-			(at 195.58 64.77 0)
+		(property "Reference" "#PWR0411"
+			(at 195.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 63.5 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 58.42 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 58.42 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 58.42 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5322,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0123")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 146.05 0)
+		(at 152.4 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5334,8 +5338,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa73194-fb2b-412a-bef8-16f4fc296dab")
-		(property "Reference" "#PWR033"
-			(at 152.4 152.4 0)
+		(property "Reference" "#PWR0408"
+			(at 152.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 151.13 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 146.05 0)
+			(at 152.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 146.05 0)
+			(at 152.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 146.05 0)
+			(at 152.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5388,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR033")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "Galerna:1825910-6")
-		(at 134.62 137.16 0)
+		(at 134.62 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5400,8 +5404,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a32b1c-f8b2-478e-9d27-e518666293a4")
-		(property "Reference" "BTN1"
-			(at 134.62 127 0)
+		(property "Reference" "BTN400"
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5413,7 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 134.62 129.54 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5421,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:SW4_1825910-B_TEC"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5449,7 @@
 			)
 		)
 		(property "Comment" "1825910-6"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5459,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5469,7 @@
 			)
 		)
 		(property "Description_1" "Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5479,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5489,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5499,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5509,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5519,7 @@
 			)
 		)
 		(property "PARTREV" "C10"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5529,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5539,7 @@
 			)
 		)
 		(property "MP" "1825910-6"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5549,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=226996&manufacturer=TE Connectivity&part_name=1825910-6&search_term=None"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5559,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5569,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 134.62 137.16 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5593,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "BTN1")
+					(reference "BTN400")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5601,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 195.58 76.2 0)
+		(at 195.58 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5605,8 +5609,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a8a017-b604-40fb-b562-34c32ed953d9")
-		(property "Reference" "#PWR027"
-			(at 195.58 80.01 0)
+		(property "Reference" "#PWR0412"
+			(at 195.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5619,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 74.9299 0)
+			(at 198.12 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 76.2 0)
+			(at 195.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 76.2 0)
+			(at 195.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 195.58 76.2 0)
+			(at 195.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5660,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR027")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -5664,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 44.45 0)
+		(at 30.48 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5672,8 +5676,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f02b3d-059f-408f-9def-803befedd80f")
-		(property "Reference" "#PWR023"
-			(at 29.21 50.8 0)
+		(property "Reference" "#PWR0400"
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 49.53 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 44.45 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 44.45 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 44.45 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5726,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR023")
+					(reference "#PWR0400")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5734,7 @@
 	)
 	(symbol
 		(lib_id "Galerna:1825910-6")
-		(at 134.62 162.56 0)
+		(at 134.62 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,8 +5742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba38ee96-85c7-4378-937f-f8f2bda0cdda")
-		(property "Reference" "BTN2"
-			(at 134.62 152.4 0)
+		(property "Reference" "BTN401"
+			(at 134.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5751,7 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 134.62 154.94 0)
+			(at 134.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5759,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:SW4_1825910-B_TEC"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5787,7 @@
 			)
 		)
 		(property "Comment" "1825910-6"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5797,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5807,7 @@
 			)
 		)
 		(property "Description_1" "Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5817,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5827,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5837,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5847,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +5857,7 @@
 			)
 		)
 		(property "PARTREV" "C10"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5867,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5877,7 @@
 			)
 		)
 		(property "MP" "1825910-6"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5887,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=226996&manufacturer=TE Connectivity&part_name=1825910-6&search_term=None"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5897,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5907,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 134.62 162.56 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5931,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "BTN2")
+					(reference "BTN401")
 					(unit 1)
 				)
 			)
@@ -5935,7 +5939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 171.45 0)
+		(at 152.4 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5943,8 +5947,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbd2f3b8-617b-4671-8f42-5355597ef2e5")
-		(property "Reference" "#PWR034"
-			(at 152.4 177.8 0)
+		(property "Reference" "#PWR0409"
+			(at 152.4 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 176.53 0)
+			(at 152.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 171.45 0)
+			(at 152.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 171.45 0)
+			(at 152.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +5983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 171.45 0)
+			(at 152.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5997,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR034")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6005,7 @@
 	)
 	(symbol
 		(lib_id "Galerna:100SP1T1B4M2QE")
-		(at 62.23 138.43 0)
+		(at 62.23 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6009,8 +6013,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0c8ff38-fb9e-4240-9faf-1167909190fb")
-		(property "Reference" "SW1"
-			(at 62.23 130.81 0)
+		(property "Reference" "SW400"
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6022,7 @@
 			)
 		)
 		(property "Value" "100SP1T1B4M2QE"
-			(at 62.23 133.35 0)
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6030,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:SW_100SP1T1B4M2QE"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6049,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6058,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6068,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "29.68 mm"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6078,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6088,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6098,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/100SP1T1B4M2QE/E-Switch/view-part/?ref=eda"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6108,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6118,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6128,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/100SP1T1B4M2QE/E-Switch/view-part/?ref=snap"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6138,7 @@
 			)
 		)
 		(property "MP" "100SP1T1B4M2QE"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6148,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=846138&manufacturer=E-Switch&part_name=100SP1T1B4M2QE&search_term=None"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +6158,7 @@
 			)
 		)
 		(property "Description_1" "Toggle Switch, 100 Series, SPDT, ON-NONE-ON, Sealed, 5A, 120VAC, 28VDC, PC Pin | E-Switch 100SP1T1B4M2QE"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6168,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6178,7 @@
 			)
 		)
 		(property "MANUFACTURER" "E-Switch"
-			(at 62.23 138.43 0)
+			(at 62.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6199,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "SW1")
+					(reference "SW400")
 					(unit 1)
 				)
 			)
@@ -6203,16 +6207,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 185.42 92.71 0)
+		(at 185.42 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c143c3ad-1bd6-445a-b00f-232d52cb87c5")
-		(property "Reference" "VR6"
-			(at 187.96 92.7099 0)
+		(property "Reference" "VR403"
+			(at 187.96 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6224,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 187.96 93.9799 0)
+			(at 187.96 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6262,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6272,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6282,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6292,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6302,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6312,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6322,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6332,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6342,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6352,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 185.42 92.71 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6373,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR6")
+					(reference "VR403")
 					(unit 1)
 				)
 			)
@@ -6378,16 +6381,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 213.36 43.18 0)
+		(at 213.36 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c62354c5-92c5-4192-a465-96fcd2925bd2")
-		(property "Reference" "VR3"
-			(at 215.9 43.1799 0)
+		(property "Reference" "VR404"
+			(at 215.9 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6398,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 215.9 44.4499 0)
+			(at 215.9 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +6408,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6436,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6446,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6456,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6466,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6476,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6486,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6496,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6506,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6516,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6526,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 213.36 43.18 0)
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6547,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR3")
+					(reference "VR404")
 					(unit 1)
 				)
 			)
@@ -6553,15 +6555,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 195.58 26.67 0)
+		(at 195.58 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c121d1-1f6a-467a-a9df-110aa7d70047")
-		(property "Reference" "#PWR0122"
-			(at 195.58 30.48 0)
+		(property "Reference" "#PWR0410"
+			(at 195.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6572,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 192.278 22.098 0)
+			(at 192.278 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 26.67 0)
+			(at 195.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 26.67 0)
+			(at 195.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 195.58 26.67 0)
+			(at 195.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6619,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0122")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -6625,7 +6627,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 66.04 0)
+		(at 109.22 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,8 +6635,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c730c32d-d928-4c93-8529-9ce6092e0bdb")
-		(property "Reference" "C20"
-			(at 111.76 64.7699 0)
+		(property "Reference" "C400"
+			(at 113.03 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6645,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.76 67.3099 0)
+			(at 113.03 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,8 +6653,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.9152 69.85 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.1852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 66.04 0)
+			(at 109.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6672,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 66.04 0)
+			(at 109.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6689,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C20")
+					(reference "C400")
 					(unit 1)
 				)
 			)
@@ -6695,7 +6697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 107.95 0)
+		(at 195.58 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6703,8 +6705,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a269f2-0c5f-40bd-8cbc-53995cb29e4b")
-		(property "Reference" "#PWR028"
-			(at 195.58 114.3 0)
+		(property "Reference" "#PWR0413"
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +6715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 113.03 0)
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 107.95 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 107.95 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 107.95 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6755,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR028")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -6761,7 +6763,7 @@
 	)
 	(symbol
 		(lib_id "Galerna:CD4051BM")
-		(at 57.15 69.85 0)
+		(at 58.42 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6769,8 +6771,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6da453e-a294-4308-8c36-edb84cdfad52")
-		(property "Reference" "U8"
-			(at 57.15 29.21 0)
+		(property "Reference" "U400"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6780,7 @@
 			)
 		)
 		(property "Value" "CD4051BM"
-			(at 57.15 31.75 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6788,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:SOIC127P600X175-16N"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6816,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +6826,7 @@
 			)
 		)
 		(property "Description_1" "20-V, 8:1, 1-channel analog multiplexer with logic-level conversion"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6836,7 @@
 			)
 		)
 		(property "Package" "SOIC-16 Texas Instruments"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +6846,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=280286&manufacturer=Texas Instruments&part_name=CD4051BM&search_term=cd4051b"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +6856,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CD4051BM/Texas+Instruments/view-part/?ref=snap"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6866,7 @@
 			)
 		)
 		(property "MP" "CD4051BM"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6876,7 @@
 			)
 		)
 		(property "RS_Components_6622647P_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/multiplexer-demultiplexer-ics/6622647p//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-6622647P/?unipart_id=280286&manufacturer=Texas Instruments&part_name=CD4051BM&search_term=cd4051b"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +6886,7 @@
 			)
 		)
 		(property "RS_Components_1219200_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/multiplexer-demultiplexer-ics/1219200//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-1219200/?unipart_id=280286&manufacturer=Texas Instruments&part_name=CD4051BM&search_term=cd4051b"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6896,7 @@
 			)
 		)
 		(property "RS_Components_6622647_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/multiplexer-demultiplexer-ics/6622647//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-6622647/?unipart_id=280286&manufacturer=Texas Instruments&part_name=CD4051BM&search_term=cd4051b"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6906,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CD4051BM/Texas+Instruments/view-part/?ref=eda"
-			(at 57.15 69.85 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6972,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "U8")
+					(reference "U400")
 					(unit 1)
 				)
 			)
@@ -6978,16 +6980,15 @@
 	)
 	(symbol
 		(lib_id "Galerna:PTV09A-4225F-B104")
-		(at 213.36 92.71 0)
+		(at 213.36 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e687320d-6d57-4197-a615-f2b66f37b17b")
-		(property "Reference" "VR7"
-			(at 215.9 92.7099 0)
+		(property "Reference" "VR405"
+			(at 215.9 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6997,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4225F-B104"
-			(at 215.9 93.9799 0)
+			(at 215.9 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7007,7 @@
 			)
 		)
 		(property "Footprint" "Galerna:PTV09"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7035,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7045,7 @@
 			)
 		)
 		(property "Description_1" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7055,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7065,7 @@
 			)
 		)
 		(property "PARTNO" "PTV09A-4225F-B104-ND"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7075,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7085,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=snap"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7095,7 @@
 			)
 		)
 		(property "MP" "PTV09A-4225F-B104"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7105,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1448300&manufacturer=Bourns&part_name=PTV09A-4225F-B104&search_term=None"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7115,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7125,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part/?ref=eda"
-			(at 213.36 92.71 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7146,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR7")
+					(reference "VR405")
 					(unit 1)
 				)
 			)
@@ -7153,7 +7154,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 173.99 0)
+		(at 76.2 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7161,8 +7162,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d8e5c5-daea-4617-a857-a4503a402eb5")
-		(property "Reference" "#PWR031"
-			(at 76.2 180.34 0)
+		(property "Reference" "#PWR0404"
+			(at 76.2 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 179.07 0)
+			(at 76.2 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 173.99 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 173.99 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 173.99 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7212,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR031")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 40.64 0)
+		(at 123.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7227,8 +7228,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff48f236-5c80-4cc7-9728-677b8347b463")
-		(property "Reference" "#PWR026"
-			(at 121.92 46.99 0)
+		(property "Reference" "#PWR0406"
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,7 +7238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 45.72 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 40.64 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 40.64 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 40.64 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7278,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR026")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)

@@ -25,7 +25,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3237a832-a4e0-4dac-bf7d-0ca39f4bb036")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "[2] Power"
 			(at 81.788 88.0614 0)
 			(effects
 				(font
@@ -68,7 +68,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6f30b934-5b55-48c2-913b-4ebe4ce514c8")
-		(property "Sheetname" "MCU"
+		(property "Sheetname" "[1] MCU"
 			(at 82.55 53.2634 0)
 			(effects
 				(font
@@ -112,7 +112,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9ff4b341-54b0-41b8-b594-0e1d528851b1")
-		(property "Sheetname" "Input Control"
+		(property "Sheetname" "[3]Input Control"
 			(at 144.78 88.8234 0)
 			(effects
 				(font
@@ -156,7 +156,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c8eca522-3096-4cb1-b457-c66eaba9f73c")
-		(property "Sheetname" "Audio"
+		(property "Sheetname" "[2] Audio"
 			(at 140.97 51.9934 0)
 			(effects
 				(font
