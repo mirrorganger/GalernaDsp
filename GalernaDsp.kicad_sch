@@ -112,7 +112,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9ff4b341-54b0-41b8-b594-0e1d528851b1")
-		(property "Sheetname" "[3]Input Control"
+		(property "Sheetname" "[3] Input Control"
 			(at 144.78 88.8234 0)
 			(effects
 				(font
