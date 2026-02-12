@@ -4886,22 +4886,10 @@
 		(uuid "353f3e5a-bb48-41ea-b4c8-c95ecdcabab8")
 	)
 	(junction
-		(at 209.55 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3562bc75-8784-44bb-bcc5-1cf948a67be8")
-	)
-	(junction
 		(at 58.42 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3993ea61-ef00-44ae-8382-24e79c082a79")
-	)
-	(junction
-		(at 184.15 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "412cfa06-26dd-4d68-a9dc-9db7b34e3d52")
 	)
 	(junction
 		(at 63.5 116.84)
@@ -4926,6 +4914,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ebec6e2-a5fc-4446-ba01-fe4414aaf13b")
+	)
+	(junction
+		(at 209.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5703cc47-75f2-48b8-a04d-99f22dbb70c9")
 	)
 	(junction
 		(at 176.53 185.42)
@@ -4974,6 +4968,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78700497-928d-4db7-9b6a-f4ec855b4604")
+	)
+	(junction
+		(at 184.15 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79a57cef-5dd4-4f13-9d84-faed9bc03146")
 	)
 	(junction
 		(at 171.45 30.48)
@@ -5356,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "0fb4cd75-fcf8-4b00-b354-397fc0c8341a")
+	)
+	(wire
+		(pts
+			(xy 209.55 43.18) (xy 209.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e30dc0-418a-4d6d-a12c-230e9ac355ee")
 	)
 	(wire
 		(pts
@@ -6519,7 +6529,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 30.48) (xy 171.45 30.48)
+			(xy 171.45 30.48) (xy 184.15 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7069,16 +7079,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 43.18) (xy 184.15 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb90357-e619-45f7-91ef-bbf67f4ad440")
-	)
-	(wire
-		(pts
 			(xy 138.43 205.74) (xy 157.48 205.74)
 		)
 		(stroke
@@ -7356,6 +7356,16 @@
 			(type default)
 		)
 		(uuid "ef507af3-0a5b-4060-9dc7-2f4dfac6e8a1")
+	)
+	(wire
+		(pts
+			(xy 184.15 30.48) (xy 209.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb175b-1c89-4bb6-9170-9a2360e74841")
 	)
 	(wire
 		(pts
@@ -11318,7 +11328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.4452 41.91 0)
 			(effects
 				(font
@@ -11993,7 +12003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 273.05 31.75 0)
 			(effects
 				(font
