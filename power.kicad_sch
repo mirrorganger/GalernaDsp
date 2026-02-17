@@ -2864,9 +2864,9 @@
 		)
 		(uuid b39674af-245f-4b20-9433-a373d1398cf7)
 	)
-	(text "VOLTAGE REGULATOR"
+	(text "VOLTAGE REGULATORS"
 		(exclude_from_sim no)
-		(at 116.332 164.592 0)
+		(at 124.206 164.592 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -2895,19 +2895,6 @@
 			)
 		)
 		(uuid "9f251176-83ce-4322-bcae-f763bd49c33a")
-	)
-	(text "Voltage regulators\n"
-		(exclude_from_sim no)
-		(at 124.206 20.574 0)
-		(effects
-			(font
-				(face "Fira Sans Compressed UltraLight")
-				(size 3.81 3.81)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "d2ca8074-6b1f-4d96-87e0-3bdc5bf5ddc8")
 	)
 	(text_box "Indicate this is a sink port by adding the pull down resistors.\n"
 		(exclude_from_sim no)
@@ -4598,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 185.42 113.03 0)
 			(effects
 				(font

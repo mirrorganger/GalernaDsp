@@ -1189,6 +1189,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3966,7 +4127,7 @@
 			)
 		)
 	)
-	(global_label "I2S_SCA"
+	(global_label "I2C_SDA"
 		(shape input)
 		(at 85.09 90.17 180)
 		(fields_autoplaced yes)
@@ -3978,7 +4139,7 @@
 		)
 		(uuid "8b83cb59-ebc2-4e37-80ba-bca182078977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5453 90.17 0)
+			(at 74.4848 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4171,7 @@
 			)
 		)
 	)
-	(global_label "I2S_SCL"
+	(global_label "I2C_SCL"
 		(shape input)
 		(at 85.09 92.71 180)
 		(fields_autoplaced yes)
@@ -4022,7 +4183,7 @@
 		)
 		(uuid "c5b1cada-1d92-42bd-8df6-ba65fdc2d7f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6058 92.71 0)
+			(at 74.5453 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,6 +4698,72 @@
 			(project "audio_codec"
 				(path "/e3b3de50-cc7b-41ec-a880-fcc1cb4fca88"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 187.96 217.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a1c4ec4-03ed-4f91-9752-d609a7b58998")
+		(property "Reference" "C213"
+			(at 188.214 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 188.214 225.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Galerna:CHEMI-F80"
+			(at 191.77 216.2048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 187.96 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "124a58f4-ecaf-496e-bc65-05c46a9c5020")
+		)
+		(pin "2"
+			(uuid "8d693e11-72c1-469e-a277-226e46f41cfd")
+		)
+		(instances
+			(project "GalernaDsp"
+				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/c8eca522-3096-4cb1-b457-c66eaba9f73c"
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -6863,6 +7090,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 187.96 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c535b1ed-17da-462f-a9a1-120b2d154771")
+		(property "Reference" "C212"
+			(at 187.071 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 187.071 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Galerna:CHEMI-F80"
+			(at 191.77 211.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce4a458f-4895-42d6-88ac-3a4f742e97de")
+		)
+		(pin "2"
+			(uuid "c6f53b96-562b-4ab9-b25f-23a71e8fc87a")
+		)
+		(instances
+			(project ""
+				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/c8eca522-3096-4cb1-b457-c66eaba9f73c"
+					(reference "C212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 129.54 0)
 		(unit 1)
@@ -7749,79 +8044,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 212.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efe61bde-6aaa-4fa5-8944-8c28cb575870")
-		(property "Reference" "C212"
-			(at 187.96 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 192.024 210.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 211.1248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a725a1d5-2078-4f81-8265-6a10bd33b1ee")
-		)
-		(pin "2"
-			(uuid "37d5a347-815b-422f-9f86-fd889ce82d7d")
-		)
-		(instances
-			(project "GalernaDsp"
-				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/c8eca522-3096-4cb1-b457-c66eaba9f73c"
-					(reference "C212")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e3b3de50-cc7b-41ec-a880-fcc1cb4fca88"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 58.42 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7967,79 +8189,6 @@
 			(project "audio_codec"
 				(path "/e3b3de50-cc7b-41ec-a880-fcc1cb4fca88"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1c148a7-f1bc-48c1-9893-162e9a77754d")
-		(property "Reference" "C213"
-			(at 187.96 221.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 191.77 219.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 216.2048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82b6751e-dfbc-4048-8d5e-8bc7ba22687c")
-		)
-		(pin "2"
-			(uuid "5b569365-bdab-481a-8099-fa6690c4bafb")
-		)
-		(instances
-			(project "GalernaDsp"
-				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/c8eca522-3096-4cb1-b457-c66eaba9f73c"
-					(reference "C213")
-					(unit 1)
-				)
-			)
-			(project "audio_codec"
-				(path "/e3b3de50-cc7b-41ec-a880-fcc1cb4fca88"
-					(reference "C6")
 					(unit 1)
 				)
 			)
