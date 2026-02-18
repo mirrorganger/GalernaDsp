@@ -5148,7 +5148,7 @@
 		(uuid "097819b1-b563-4e33-912f-48c863555962")
 	)
 	(no_connect
-		(at 234.95 58.42)
+		(at 234.95 76.2)
 		(uuid "11733d11-4619-41f9-ae07-fb0ce6da6184")
 	)
 	(no_connect
@@ -5160,7 +5160,7 @@
 		(uuid "32a998f1-d696-4ac5-b818-c1510fb7834d")
 	)
 	(no_connect
-		(at 234.95 55.88)
+		(at 234.95 73.66)
 		(uuid "371bcbbb-82c4-4c9a-93fb-787e70e05f5e")
 	)
 	(no_connect
@@ -5168,7 +5168,7 @@
 		(uuid "3dfdccb0-c1ff-40a7-b9d6-2627d6409322")
 	)
 	(no_connect
-		(at 234.95 60.96)
+		(at 234.95 78.74)
 		(uuid "608c150f-99a0-4b3a-96f9-401e17326bee")
 	)
 	(no_connect
@@ -6219,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 76.2) (xy 241.3 76.2)
+			(xy 234.95 58.42) (xy 241.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6419,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 78.74) (xy 241.3 78.74)
+			(xy 234.95 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7289,7 +7289,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 73.66) (xy 241.3 73.66)
+			(xy 234.95 55.88) (xy 241.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7478,7 +7478,7 @@
 		(uuid "0ef25ec2-8baa-4b91-bd63-5bbe25643fad")
 	)
 	(label "LED_1"
-		(at 241.3 76.2 0)
+		(at 241.3 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7837,8 +7837,8 @@
 		)
 		(uuid "dbf8cd00-6eac-4726-8953-0d1badaea95d")
 	)
-	(label "LED_2"
-		(at 241.3 73.66 0)
+	(label "LED_0"
+		(at 241.3 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7867,8 +7867,8 @@
 		)
 		(uuid "eb969cff-c5fc-48b3-a6f8-8a50ac191be5")
 	)
-	(label "LED_0"
-		(at 241.3 78.74 0)
+	(label "LED_2"
+		(at 241.3 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
