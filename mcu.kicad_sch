@@ -1723,6 +1723,140 @@
 				)
 			)
 		)
+		(symbol "Galerna:RCLAMP0521P-N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RCLAMP0521P-N"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Galerna:X1-DFN1006-2_L1.0-W0.6-P0.65-BI"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Bourne-Semicon-Shenzhen-RCLAMP0521P-N_C316043.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C316043"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RCLAMP0521P-N_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.52) (xy -0.51 1.52) (xy 0 1.52) (xy 0 -1.52) (xy 0.51 -1.52) (xy 0.51 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RCLAMP0521P-N_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Galerna:SS12D10G5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4934,6 +5068,12 @@
 		(uuid "5ec3a82d-49d9-429b-8429-0b1638b73afb")
 	)
 	(junction
+		(at 234.95 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ee67488-266d-479d-867e-303de659df3d")
+	)
+	(junction
 		(at 234.95 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5052,6 +5192,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c5730a-29d6-4c53-b589-ecdcb6b795b2")
+	)
+	(junction
+		(at 217.17 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcf97eb8-9a1e-4053-863a-b1202048b141")
 	)
 	(junction
 		(at 245.11 193.04)
@@ -5539,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 180.34) (xy 234.95 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f080f9-a85f-4981-ba16-cb172a6f79e4")
+	)
+	(wire
+		(pts
 			(xy 215.9 245.11) (xy 208.28 245.11)
 		)
 		(stroke
@@ -5669,7 +5825,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 180.34) (xy 234.95 180.34)
+			(xy 208.28 180.34) (xy 217.17 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5766,6 +5922,16 @@
 			(type default)
 		)
 		(uuid "402e8412-bbf2-4fd4-9906-0d765e649eb3")
+	)
+	(wire
+		(pts
+			(xy 217.17 193.04) (xy 234.95 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fb0625-bed5-4827-87e8-6e35d6d0fa0c")
 	)
 	(wire
 		(pts
@@ -5906,6 +6072,16 @@
 			(type default)
 		)
 		(uuid "4a2bb762-fd0b-44fc-97be-e4631dff8854")
+	)
+	(wire
+		(pts
+			(xy 217.17 180.34) (xy 217.17 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8b0287-3691-4615-95d5-85130582a559")
 	)
 	(wire
 		(pts
@@ -6669,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 193.04) (xy 245.11 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43cd82e-b149-4a48-ab32-3a678966c866")
+	)
+	(wire
+		(pts
 			(xy 234.95 134.62) (xy 241.3 134.62)
 		)
 		(stroke
@@ -7079,16 +7265,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 193.04) (xy 234.95 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfed5c95-9911-43fe-8605-3b5919353145")
-	)
-	(wire
-		(pts
 			(xy 76.2 102.87) (xy 76.2 107.95)
 		)
 		(stroke
@@ -7379,6 +7555,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 191.77) (xy 217.17 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f488a64c-b685-4b70-885f-66fbc73b1b03")
+	)
+	(wire
+		(pts
 			(xy 138.43 208.28) (xy 147.32 208.28)
 		)
 		(stroke
@@ -7427,7 +7613,7 @@
 		)
 		(uuid "fbd7b60b-05ea-4f34-ac35-480fdb2d25a8")
 	)
-	(label "MCU_SDIO_D1"
+	(label "SDCARD_SDIO_D1"
 		(at 138.43 218.44 180)
 		(effects
 			(font
@@ -7437,7 +7623,7 @@
 		)
 		(uuid "0444a622-4305-48b1-90a9-9ea66404147c")
 	)
-	(label "MCU_SDIO_CK"
+	(label "SDCARD_SDIO_CK"
 		(at 138.43 208.28 180)
 		(effects
 			(font
@@ -7447,7 +7633,7 @@
 		)
 		(uuid "04adcf50-be5a-4dd7-9ac2-6975fcf47974")
 	)
-	(label "MCU_SDIO_D2"
+	(label "SDCARD_SDIO_D2"
 		(at 138.43 220.98 180)
 		(effects
 			(font
@@ -7457,7 +7643,7 @@
 		)
 		(uuid "0acd8551-d282-4efe-a490-e69d9d232e3a")
 	)
-	(label "MCU_SDIO_CMD"
+	(label "SDCARD_SDIO_CMD"
 		(at 187.96 71.12 180)
 		(effects
 			(font
@@ -7497,7 +7683,7 @@
 		)
 		(uuid "235a35f1-4884-4ed8-9098-5d13f42c0e58")
 	)
-	(label "MCU_SDIO_CMD"
+	(label "SDCARD_SDIO_CMD"
 		(at 138.43 205.74 180)
 		(effects
 			(font
@@ -7547,7 +7733,7 @@
 		)
 		(uuid "44762401-da59-4936-aa40-524ae7780a1d")
 	)
-	(label "MCU_SDIO_D0"
+	(label "SDCARD_SDIO_D0"
 		(at 187.96 96.52 180)
 		(effects
 			(font
@@ -7567,7 +7753,7 @@
 		)
 		(uuid "4749a4fb-478f-43c1-8028-d496534dd7ea")
 	)
-	(label "SD_CARD_DETECT"
+	(label "SDCARD_DETECT"
 		(at 241.3 91.44 0)
 		(effects
 			(font
@@ -7607,7 +7793,7 @@
 		)
 		(uuid "5c9bb17c-2918-4612-a47f-f6b18ba1e598")
 	)
-	(label "MCU_SDIO_D3"
+	(label "SDCARD_SDIO_D3"
 		(at 187.96 104.14 180)
 		(effects
 			(font
@@ -7617,7 +7803,7 @@
 		)
 		(uuid "60c4809a-af52-453c-a192-63b8b6ead9ee")
 	)
-	(label "MCU_SDIO_D1"
+	(label "SDCARD_SDIO_D1"
 		(at 187.96 99.06 180)
 		(effects
 			(font
@@ -7647,7 +7833,7 @@
 		)
 		(uuid "7217e8b0-aed6-41a8-9de5-2aaa3ef4ce1e")
 	)
-	(label "MCU_SDIO_D0"
+	(label "SDCARD_SDIO_D0"
 		(at 138.43 215.9 180)
 		(effects
 			(font
@@ -7667,7 +7853,7 @@
 		)
 		(uuid "77582300-3849-4d76-9380-4ab03651bb72")
 	)
-	(label "SD_CARD_DETECT"
+	(label "SDCARD_DETECT"
 		(at 138.43 210.82 180)
 		(effects
 			(font
@@ -7697,7 +7883,7 @@
 		)
 		(uuid "91241320-3d5f-4a8c-9429-f2c7dd8c509d")
 	)
-	(label "MCU_SDIO_CK"
+	(label "SDCARD_SDIO_CK"
 		(at 187.96 106.68 180)
 		(effects
 			(font
@@ -7757,7 +7943,7 @@
 		)
 		(uuid "a8606bb2-6f4e-4829-9073-a1b6ddda0bc8")
 	)
-	(label "MCU_SDIO_D3"
+	(label "SDCARD_SDIO_D3"
 		(at 138.43 223.52 180)
 		(effects
 			(font
@@ -7817,7 +8003,7 @@
 		)
 		(uuid "bf44d4ce-b0ba-4a51-8981-1f3ac35fefe6")
 	)
-	(label "MCU_SDIO_D2"
+	(label "SDCARD_SDIO_D2"
 		(at 187.96 101.6 180)
 		(effects
 			(font
@@ -7887,7 +8073,7 @@
 		)
 		(uuid "ffa1b7c2-076a-495c-b9cb-f221842521e3")
 	)
-	(global_label "I2S_WS"
+	(global_label "CODEC_I2S_WS"
 		(shape input)
 		(at 241.3 127 0)
 		(fields_autoplaced yes)
@@ -7899,7 +8085,7 @@
 		)
 		(uuid "0ac2f477-5b7e-4ae2-b68c-b80c1a92f7f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.9375 127 0)
+			(at 258.1946 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +8095,7 @@
 			)
 		)
 	)
-	(global_label "I2S_SDI"
+	(global_label "CODEC_I2S_SDI"
 		(shape input)
 		(at 241.3 132.08 0)
 		(fields_autoplaced yes)
@@ -7921,7 +8107,7 @@
 		)
 		(uuid "1b314a4e-f018-4ca2-a33e-dd84a51ec168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.3609 132.08 0)
+			(at 258.618 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8117,7 @@
 			)
 		)
 	)
-	(global_label "I2S_SD"
+	(global_label "CODEC_I2S_SD"
 		(shape input)
 		(at 241.3 134.62 0)
 		(fields_autoplaced yes)
@@ -7943,7 +8129,7 @@
 		)
 		(uuid "1f71a099-81bd-47c4-be2c-38d0508ed513")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.7561 134.62 0)
+			(at 258.0132 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8205,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "CODEC_I2C_SCL"
 		(shape input)
 		(at 241.3 121.92 0)
 		(fields_autoplaced yes)
@@ -8031,7 +8217,7 @@
 		)
 		(uuid "3a9b3a75-7abe-42e4-84ea-e022946d62e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.8447 121.92 0)
+			(at 259.1018 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8227,7 @@
 			)
 		)
 	)
-	(global_label "I2S_CK"
+	(global_label "CODEC_I2S_CK"
 		(shape input)
 		(at 241.3 129.54 0)
 		(fields_autoplaced yes)
@@ -8053,7 +8239,7 @@
 		)
 		(uuid "639cc614-ec27-4d65-96ac-8a6f232ceff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8166 129.54 0)
+			(at 258.0737 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8249,7 @@
 			)
 		)
 	)
-	(global_label "I2S_MCK"
+	(global_label "CODEC_I2S_MCK"
 		(shape input)
 		(at 187.96 91.44 180)
 		(fields_autoplaced yes)
@@ -8075,7 +8261,7 @@
 		)
 		(uuid "8491e473-38ca-43bd-9623-f9b1e6d13834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.992 91.44 0)
+			(at 169.7349 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8337,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "CODEC_I2C_SDA"
 		(shape input)
 		(at 241.3 124.46 0)
 		(fields_autoplaced yes)
@@ -8163,7 +8349,7 @@
 		)
 		(uuid "b92e2fc0-8c9a-41a2-a26f-4f17a6d36921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.9052 124.46 0)
+			(at 259.1623 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,6 +8941,12 @@
 			(uuid "6e2eaf9a-5644-40d8-a5fd-d12173f469e1")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0118")
@@ -8825,6 +9017,12 @@
 			(uuid "974ae25f-9bec-4ff5-b831-05b8ac4e827a")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C112")
@@ -8891,6 +9089,12 @@
 			(uuid "91557392-52f5-41f1-8309-d2e2a9621750")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#FLG0100")
@@ -8961,6 +9165,12 @@
 			(uuid "4897145c-a773-4b66-9cd7-eed09d427637")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C107")
@@ -9105,6 +9315,12 @@
 			(uuid "4eeb4d26-fd60-4d93-aa1e-fde524319f26")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C114")
@@ -9332,6 +9548,12 @@
 			(uuid "ac6109f3-6dfd-4620-9bea-3722b78f6be9")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0112")
@@ -9559,6 +9781,12 @@
 			(uuid "6e611807-efe9-4aa6-9868-709b5e48cee7")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C110")
@@ -9742,6 +9970,12 @@
 			(uuid "22361df7-a54d-4a48-a85a-daf4ae3329e4")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0110")
@@ -10186,6 +10420,12 @@
 			(uuid "aef4a98f-7bda-4777-8a40-9f5fd55dcf16")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C106")
@@ -10558,6 +10798,12 @@
 			(uuid "cdabb63a-de76-419a-abb3-ad42e3efb12d")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0108")
@@ -10874,6 +11120,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Galerna:RCLAMP0521P-N")
+		(at 217.17 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e6a94a-c53b-494f-813c-46be66ca97db")
+		(property "Reference" "D104"
+			(at 210.566 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RCLAMP0521P-N"
+			(at 208.28 194.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Galerna:X1-DFN1006-2_L1.0-W0.6-P0.65-BI"
+			(at 224.79 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Bourne-Semicon-Shenzhen-RCLAMP0521P-N_C316043.html"
+			(at 227.33 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C316043"
+			(at 229.87 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cebcaf90-54c2-4d00-9b14-e3660e6c0b98")
+		)
+		(pin "1"
+			(uuid "69575775-953a-4827-a781-a1ee14f3d9d9")
+		)
+		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 36.83 0)
 		(unit 1)
@@ -10935,6 +11266,12 @@
 			(uuid "eb5fd6e8-2ae8-4bdd-89ba-06a4e91e5881")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C104")
@@ -11005,6 +11342,12 @@
 			(uuid "c86ee4ee-8770-4a4c-94b8-58b092c7bd91")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C108")
@@ -11147,6 +11490,12 @@
 			(uuid "ea8c6555-80cd-40b0-884d-c9319c805913")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C109")
@@ -11362,6 +11711,12 @@
 			(uuid "50c93fae-b618-4d4d-9d74-a837387d4cdb")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C116")
@@ -11897,6 +12252,12 @@
 			(uuid "4e4407b6-ea85-4d7a-8788-f630cf838773")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0117")
@@ -12037,6 +12398,12 @@
 			(uuid "4ef31580-ac21-4122-83e7-d16efcdbbe6d")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "L100")
@@ -12366,6 +12733,12 @@
 			(uuid "fe566a83-4903-4d67-9f04-568aa22315e2")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0107")
@@ -12668,6 +13041,12 @@
 			(uuid "7397bab5-3e47-4a10-801f-3a1e443c585a")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C103")
@@ -13405,6 +13784,12 @@
 			(uuid "931717cd-023a-4676-ab33-adf5c5b31acb")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "C105")
@@ -13623,6 +14008,12 @@
 			(uuid "72fc1cb5-9636-4716-8ef6-a213291939c1")
 		)
 		(instances
+			(project "mcu"
+				(path "/8875c119-10ac-4d8a-bc06-d27618c176ec"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/6f30b934-5b55-48c2-913b-4ebe4ce514c8"
 					(reference "#PWR0114")

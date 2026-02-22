@@ -1,4 +1,4 @@
-235546705344551
+239089946374423
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63322,6 +63322,13 @@ PTV09
 5
 5
 Galerna
+RK09L12D0A1W_AAL
+
+RK09L12D0A1W 
+0
+6
+6
+Galerna
 RK10J12R0A0B
 
 
@@ -63363,6 +63370,13 @@ SW_100SP1T1B4M2QE
 0
 3
 3
+Galerna
+X1-DFN1006-2_L1.0-W0.6-P0.65-BI
+
+
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
