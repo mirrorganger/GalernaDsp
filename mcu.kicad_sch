@@ -7653,7 +7653,7 @@
 		)
 		(uuid "0cf2a6ac-ea1e-4d7f-bdb8-af168a1e35f7")
 	)
-	(label "SWO"
+	(label "SWD_O"
 		(at 369.57 166.37 0)
 		(effects
 			(font
@@ -7713,7 +7713,7 @@
 		)
 		(uuid "38ed7e12-1616-426a-b7d2-4ead014c1be4")
 	)
-	(label "SWDCLK"
+	(label "SWD_CLK"
 		(at 369.57 163.83 0)
 		(effects
 			(font
@@ -7893,7 +7893,7 @@
 		)
 		(uuid "93f75422-7b65-4d2a-a2da-8b52122d79ba")
 	)
-	(label "SWO"
+	(label "SWD_O"
 		(at 241.3 104.14 0)
 		(effects
 			(font
@@ -7913,7 +7913,7 @@
 		)
 		(uuid "9b73a65c-ccfc-4f56-9a8f-767abb27b2d4")
 	)
-	(label "SWDCLK"
+	(label "SWD_CLK"
 		(at 241.3 88.9 0)
 		(effects
 			(font
@@ -7953,7 +7953,7 @@
 		)
 		(uuid "ac2a9956-7d73-43e1-a967-a9d8df337d1e")
 	)
-	(label "SWDIO"
+	(label "SWD_IO"
 		(at 241.3 86.36 0)
 		(effects
 			(font
@@ -7993,7 +7993,7 @@
 		)
 		(uuid "bb9ca0eb-bb54-43aa-83e4-ae5115c814a0")
 	)
-	(label "SWDIO"
+	(label "SWD_IO"
 		(at 369.57 161.29 0)
 		(effects
 			(font

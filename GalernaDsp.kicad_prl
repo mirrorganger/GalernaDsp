@@ -1,10 +1,22 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_netclasses": [
+      "I2C",
+      "I2S",
+      "XTAL"
+    ],
+    "hidden_nets": [
+      "CODEC_I2S_SDI",
+      "CODEC_I2S_SD",
+      "CODEC_I2C_SCL",
+      "CODEC_I2S_MCK",
+      "CODEC_I2S_CK",
+      "CODEC_I2S_WS",
+      "CODEC_I2C_SDA"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -50,7 +62,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffaf",
     "zone_display_mode": 0
   },
   "git": {
