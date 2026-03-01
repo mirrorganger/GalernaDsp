@@ -2990,12 +2990,6 @@
 		(uuid "0b35a59b-58aa-4b7e-81cd-b3e636dcb3b5")
 	)
 	(junction
-		(at 36.83 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f42dc43-7ee0-4e6a-9412-884fc66c8431")
-	)
-	(junction
 		(at 207.01 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3148,6 +3142,10 @@
 	(no_connect
 		(at 52.07 124.46)
 		(uuid "148e4b71-4de9-4b80-b08e-b198d3d9473c")
+	)
+	(no_connect
+		(at 29.21 134.62)
+		(uuid "ac0e15be-ed96-4022-87e4-a918e4d0e511")
 	)
 	(no_connect
 		(at 52.07 127)
@@ -3372,16 +3370,6 @@
 			(type default)
 		)
 		(uuid "4d5be2c8-f4fb-4b13-8757-9f990e86ba1c")
-	)
-	(wire
-		(pts
-			(xy 29.21 134.62) (xy 29.21 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e908596-38fe-4d31-bb14-4aa6dcb64ad1")
 	)
 	(wire
 		(pts
@@ -3632,16 +3620,6 @@
 			(type default)
 		)
 		(uuid "8835ce06-8560-40cf-b4c6-fea7a4d3fdc3")
-	)
-	(wire
-		(pts
-			(xy 29.21 138.43) (xy 36.83 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e99e75-33e7-497c-a61e-e4d77def5a48")
 	)
 	(wire
 		(pts
@@ -4164,7 +4142,7 @@
 		(uuid "b937aa75-9b7e-4e94-9d54-1593aae59eff")
 	)
 	(global_label "MCU_USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 86.36 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4175,7 +4153,7 @@
 		)
 		(uuid "1b53e342-f747-41da-8706-57bb17494796")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9847 105.41 0)
+			(at 103.096 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4164,7 @@
 		)
 	)
 	(global_label "MCU_USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 86.36 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4197,7 +4175,7 @@
 		)
 		(uuid "6900b267-3096-434b-8ba1-1465d5573d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9847 107.95 0)
+			(at 103.096 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0618S"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -4594,7 +4572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-MWSA0618S100MT/C408423"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -4605,6 +4583,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C408423"
+			(at 185.42 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)

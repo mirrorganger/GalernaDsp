@@ -7693,6 +7693,16 @@
 		)
 		(uuid "2811e243-3c52-4c8b-9ca2-ac4f808ba0b7")
 	)
+	(label "VDDA"
+		(at 234.95 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b52057f-4556-43da-93e6-7f5e2ab55d06")
+	)
 	(label "+3V3_SD"
 		(at 231.14 180.34 180)
 		(effects
@@ -8074,7 +8084,7 @@
 		(uuid "ffa1b7c2-076a-495c-b9cb-f221842521e3")
 	)
 	(global_label "CODEC_I2S_WS"
-		(shape input)
+		(shape output)
 		(at 241.3 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8118,7 +8128,7 @@
 		)
 	)
 	(global_label "CODEC_I2S_SD"
-		(shape input)
+		(shape output)
 		(at 241.3 134.62 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8184,7 +8194,7 @@
 		)
 	)
 	(global_label "POT_MUX_SEL_2"
-		(shape input)
+		(shape output)
 		(at 241.3 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8206,7 +8216,7 @@
 		)
 	)
 	(global_label "CODEC_I2C_SCL"
-		(shape input)
+		(shape output)
 		(at 241.3 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8228,7 +8238,7 @@
 		)
 	)
 	(global_label "CODEC_I2S_CK"
-		(shape input)
+		(shape output)
 		(at 241.3 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8338,7 +8348,7 @@
 		)
 	)
 	(global_label "CODEC_I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 241.3 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8349,7 +8359,7 @@
 		)
 		(uuid "b92e2fc0-8c9a-41a2-a26f-4f17a6d36921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.1623 124.46 0)
+			(at 260.2736 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8392,7 @@
 		)
 	)
 	(global_label "POT_MUX_SEL_1"
-		(shape input)
+		(shape output)
 		(at 241.3 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8404,7 +8414,7 @@
 		)
 	)
 	(global_label "POT_MUX_SEL_0"
-		(shape input)
+		(shape output)
 		(at 241.3 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11677,7 +11687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 285.4452 41.91 0)
 			(effects
 				(font
@@ -12364,7 +12374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 273.05 31.75 0)
 			(effects
 				(font

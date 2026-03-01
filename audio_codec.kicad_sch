@@ -4341,7 +4341,7 @@
 		)
 	)
 	(global_label "CODEC_I2S_SDI"
-		(shape input)
+		(shape output)
 		(at 85.09 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4407,7 +4407,7 @@
 		)
 	)
 	(global_label "CODEC_I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 85.09 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4418,7 +4418,7 @@
 		)
 		(uuid "8b83cb59-ebc2-4e37-80ba-bca182078977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.2277 90.17 0)
+			(at 66.1164 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
