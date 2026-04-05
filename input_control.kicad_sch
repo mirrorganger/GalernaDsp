@@ -3443,7 +3443,7 @@
 		)
 		(uuid "04743d23-6fa4-44ba-98bf-67295851b5ab")
 	)
-	(label "POT_1_CTL"
+	(label "POT_2_CTL"
 		(at 83.82 66.04 0)
 		(effects
 			(font
@@ -3473,7 +3473,7 @@
 		)
 		(uuid "34141fe7-1896-45d2-9bcb-5c26e9803e45")
 	)
-	(label "POT_0_CTL"
+	(label "POT_1_CTL"
 		(at 83.82 60.96 0)
 		(effects
 			(font
@@ -3493,7 +3493,7 @@
 		)
 		(uuid "47c7947c-3db0-4358-95cc-464260b1bc2f")
 	)
-	(label "POT_2_CTL"
+	(label "POT_0_CTL"
 		(at 83.82 71.12 0)
 		(effects
 			(font
