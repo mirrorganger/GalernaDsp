@@ -103,7 +103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162f9490-0581-4a7d-bdf9-853db122f765")
-		(property "Reference" "H001"
+		(property "Reference" "H2"
 			(at 217.17 40.6399 0)
 			(effects
 				(font
@@ -151,7 +151,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc"
-					(reference "H001")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -167,7 +167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c88071-7ae6-416b-af51-51198d16adf7")
-		(property "Reference" "H000"
+		(property "Reference" "H1"
 			(at 217.17 33.0199 0)
 			(effects
 				(font
@@ -215,7 +215,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc"
-					(reference "H000")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -231,7 +231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e6557cd-6694-4e28-8a4a-94bf4ebe7c21")
-		(property "Reference" "H002"
+		(property "Reference" "H3"
 			(at 217.17 48.2599 0)
 			(effects
 				(font
@@ -279,7 +279,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc"
-					(reference "H002")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -295,7 +295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e6c939-6eb9-4758-bf30-ba460888828c")
-		(property "Reference" "H003"
+		(property "Reference" "H4"
 			(at 217.17 57.1499 0)
 			(effects
 				(font
@@ -343,7 +343,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc"
-					(reference "H003")
+					(reference "H4")
 					(unit 1)
 				)
 			)

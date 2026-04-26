@@ -3595,7 +3595,7 @@
 			)
 		)
 	)
-	(global_label "SW_0"
+	(global_label "SW_2"
 		(shape input)
 		(at 46.99 144.78 180)
 		(fields_autoplaced yes)
@@ -3639,7 +3639,7 @@
 			)
 		)
 	)
-	(global_label "SW_1"
+	(global_label "SW_3"
 		(shape input)
 		(at 46.99 173.99 180)
 		(fields_autoplaced yes)
@@ -3759,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0007ac31-43ee-45e7-adca-8f8ff8677b10")
-		(property "Reference" "R400"
+		(property "Reference" "R34"
 			(at 115.57 27.94 90)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "R400")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3826,7 +3826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09d19371-f2b3-4353-9439-662a4c6c0892")
-		(property "Reference" "VR406"
+		(property "Reference" "POT_7"
 			(at 243.84 50.292 0)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR406")
+					(reference "POT_7")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fbd25ed-d118-4c96-a11c-c677abe94baa")
-		(property "Reference" "VR401"
+		(property "Reference" "POT_2"
 			(at 160.02 100.076 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR401")
+					(reference "POT_2")
 					(unit 1)
 				)
 			)
@@ -4187,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b64f60-67d1-47c8-9d48-cd67f8b48bba")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR057"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0402")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f0b4bc-e185-467a-abc8-fd4046c57935")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR060"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0405")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1842950c-0479-453a-ae92-4024c39a50a6")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR056"
 			(at 76.2 142.24 0)
 			(effects
 				(font
@@ -4369,7 +4369,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0401")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2124f5c0-52a5-4cf9-937d-88945f77a346")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR058"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0403")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4451,7 +4451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a7384b-71ab-4f19-b65a-ca3794c231b2")
-		(property "Reference" "C401"
+		(property "Reference" "C51"
 			(at 125.73 73.6599 0)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C401")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38a43d75-3859-45e4-b07f-e1ac7dd8605d")
-		(property "Reference" "VR407"
+		(property "Reference" "POT_8"
 			(at 243.84 100.076 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR407")
+					(reference "POT_8")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41d48587-7535-4c82-9095-3d1b4b7a9f2f")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR062"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0407")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e11fa28-9dc7-4e9a-9046-cfe7cac9871a")
-		(property "Reference" "VR402"
+		(property "Reference" "POT_3"
 			(at 187.96 50.292 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR402")
+					(reference "POT_3")
 					(unit 1)
 				)
 			)
@@ -4946,7 +4946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7255b039-4c41-4b1c-8517-7a4a00485e40")
-		(property "Reference" "SW401"
+		(property "Reference" "SW2"
 			(at 62.23 166.37 0)
 			(effects
 				(font
@@ -5132,7 +5132,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "SW401")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5148,7 +5148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab65126-5329-4143-ae05-dc53129d9ffb")
-		(property "Reference" "C402"
+		(property "Reference" "C52"
 			(at 127 41.9099 0)
 			(effects
 				(font
@@ -5202,7 +5202,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C402")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8403e076-a8c6-4333-b233-5191ea45f645")
-		(property "Reference" "VR400"
+		(property "Reference" "POT_1"
 			(at 160.02 50.292 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR400")
+					(reference "POT_1")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89242b19-3cd6-4f23-9b51-ccbd4cb3b643")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR066"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0411")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa73194-fb2b-412a-bef8-16f4fc296dab")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR063"
 			(at 152.4 158.75 0)
 			(effects
 				(font
@@ -5520,7 +5520,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0408")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5536,7 +5536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a32b1c-f8b2-478e-9d27-e518666293a4")
-		(property "Reference" "BTN400"
+		(property "Reference" "BTN1"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -5725,7 +5725,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "BTN400")
+					(reference "BTN1")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a8a017-b604-40fb-b562-34c32ed953d9")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR067"
 			(at 195.58 82.55 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0412")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f02b3d-059f-408f-9def-803befedd80f")
-		(property "Reference" "#PWR0400"
+		(property "Reference" "#PWR055"
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -5858,7 +5858,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0400")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba38ee96-85c7-4378-937f-f8f2bda0cdda")
-		(property "Reference" "BTN401"
+		(property "Reference" "BTN2"
 			(at 134.62 158.75 0)
 			(effects
 				(font
@@ -6063,7 +6063,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "BTN401")
+					(reference "BTN2")
 					(unit 1)
 				)
 			)
@@ -6079,7 +6079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbd2f3b8-617b-4671-8f42-5355597ef2e5")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR064"
 			(at 152.4 184.15 0)
 			(effects
 				(font
@@ -6129,7 +6129,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0409")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6145,7 +6145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0c8ff38-fb9e-4240-9faf-1167909190fb")
-		(property "Reference" "SW400"
+		(property "Reference" "SW1"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -6331,7 +6331,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "SW400")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c143c3ad-1bd6-445a-b00f-232d52cb87c5")
-		(property "Reference" "VR403"
+		(property "Reference" "POT_4"
 			(at 187.96 100.076 0)
 			(effects
 				(font
@@ -6511,7 +6511,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR403")
+					(reference "POT_4")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c62354c5-92c5-4192-a465-96fcd2925bd2")
-		(property "Reference" "VR404"
+		(property "Reference" "POT_5"
 			(at 215.9 50.292 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR404")
+					(reference "POT_5")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c121d1-1f6a-467a-a9df-110aa7d70047")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR065"
 			(at 195.58 33.02 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0410")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6779,7 +6779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c730c32d-d928-4c93-8529-9ce6092e0bdb")
-		(property "Reference" "C400"
+		(property "Reference" "C50"
 			(at 113.03 73.6599 0)
 			(effects
 				(font
@@ -6833,7 +6833,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "C400")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6849,7 +6849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a269f2-0c5f-40bd-8cbc-53995cb29e4b")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR068"
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -6899,7 +6899,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0413")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6915,7 +6915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6da453e-a294-4308-8c36-edb84cdfad52")
-		(property "Reference" "U400"
+		(property "Reference" "U7"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 			)
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "U400")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7131,7 +7131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e687320d-6d57-4197-a615-f2b66f37b17b")
-		(property "Reference" "VR405"
+		(property "Reference" "POT_6"
 			(at 215.9 100.076 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "VR405")
+					(reference "POT_6")
 					(unit 1)
 				)
 			)
@@ -7312,7 +7312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d8e5c5-daea-4617-a857-a4503a402eb5")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR059"
 			(at 76.2 186.69 0)
 			(effects
 				(font
@@ -7362,7 +7362,7 @@
 		(instances
 			(project "GalernaDsp"
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0404")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7378,7 +7378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff48f236-5c80-4cc7-9728-677b8347b463")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR061"
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -7428,7 +7428,7 @@
 		(instances
 			(project ""
 				(path "/a77f8f1b-3e6d-40f9-a36e-54a20299e9bc/9ff4b341-54b0-41b8-b594-0e1d528851b1"
-					(reference "#PWR0406")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
