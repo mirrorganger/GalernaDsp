@@ -1,4 +1,4 @@
-242654389626389
+244431605822394
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63300,6 +63300,13 @@ ER-OLEDM015-2
 0
 7
 7
+Galerna
+ES8388
+QFN, 28 Pin (http://www.everest-semi.com/pdf/ES8388%20DS.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+33
+29
 Galerna
 HRS_DM3CS-SF
 
