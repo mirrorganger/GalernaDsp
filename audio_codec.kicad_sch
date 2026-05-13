@@ -4995,6 +4995,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 154.94 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d8593be-614e-4ea4-92f4-7d1a28132459")
 		)
@@ -5061,6 +5070,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 118.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 118.11 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,6 +5162,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 203.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d90e469-ffc8-41c1-8d10-a857ae33a69a")
 		)
@@ -5193,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 56.642 87.63 90)
 			(effects
 				(font
@@ -5212,6 +5239,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -5280,6 +5316,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 128.27 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,6 +5477,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 187.96 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "124a58f4-ecaf-496e-bc65-05c46a9c5020")
 		)
@@ -5499,6 +5553,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 213.36 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,6 +5637,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 297.18 67.31 0)
 			(effects
 				(font
@@ -5731,6 +5803,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 34.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "924fdff1-5578-48a2-a0be-c37697d7f90b")
 		)
@@ -5774,7 +5855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.482 87.63 90)
 			(effects
 				(font
@@ -5793,6 +5874,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 48.26 87.63 0)
 			(effects
 				(font
@@ -5863,6 +5953,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 74.93 60.96 0)
 			(effects
 				(font
@@ -6013,6 +6112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f533fe2d-b5ec-4f1d-8a9e-864ebe8ae522")
 		)
@@ -6075,6 +6183,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 297.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 297.18 83.82 0)
 			(effects
 				(font
@@ -6164,6 +6281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22176049-f00a-43ab-b9d4-94ae7aa50532")
 		)
@@ -6225,6 +6351,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 45.72 116.84 0)
 			(effects
 				(font
@@ -6445,6 +6580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d566453-d8a1-4352-93c3-03fbc976c4b0")
 		)
@@ -6512,6 +6656,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 163.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 163.83 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,6 +6740,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -6799,6 +6961,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 196.85 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1003d9f9-76f7-42bc-8eb5-a25f9cbdbdf2")
 		)
@@ -6865,6 +7036,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 196.85 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,6 +7120,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -7075,6 +7264,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 118.11 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 118.11 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,6 +7421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 87.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a2fcd61-f08f-4163-8e7e-e8e7b00e4f81")
 		)
@@ -7284,6 +7491,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RK09L12D0A1W"
+			(at 85.09 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C470487"
+			(at 85.09 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
 			(at 85.09 218.44 0)
 			(effects
 				(font
@@ -7371,6 +7605,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 194.31 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,6 +7762,33 @@
 		)
 		(property "Description" "Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28"
 			(at 106.68 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C365736"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ES8388"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everest-semi(Everest Semiconductor)"
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,6 +8214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 220.98 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4311b4cc-f0cf-4ff5-b246-318f86dc3aca")
 		)
@@ -8011,6 +8290,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 213.36 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,6 +8380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 128.27 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "678f74f3-bd7f-440d-a6ed-f0f19b266e2a")
 		)
@@ -8158,6 +8455,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 194.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 194.31 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,6 +8547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f033167-0e42-46c0-97d2-27193d7df7ce")
 		)
@@ -8302,6 +8617,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 187.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 187.96 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,6 +8709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 295.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "0462c3b1-5f7e-4e0f-bab3-aeb4051223d5")
 		)
@@ -8458,6 +8791,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 153.67 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 153.67 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,6 +8955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97a7ed1b-55b8-42f3-9a80-c4f7f7705d70")
 		)
@@ -8755,6 +9106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80466544-5dbf-429f-9106-13d4f11c1974")
 		)
@@ -8888,6 +9248,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -9115,6 +9484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7329d41-b88a-4c36-be9f-ff5f0f1c8652")
 		)
@@ -9191,6 +9569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d94d1e5-7a4a-45db-9224-8fa6602a30e6")
 		)
@@ -9253,6 +9640,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -9337,6 +9733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 57.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f21fe63f-d225-40b5-9756-7428e70816e1")
 		)
@@ -9397,6 +9802,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 220.98 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,6 +9887,33 @@
 			)
 		)
 		(property "Description" "150-mW Stereo Audio Power Amplifier, HVSSOP"
+			(at 154.94 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C130212"
+			(at 154.94 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TPA6110A2DGNR"
+			(at 154.94 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 154.94 217.17 0)
 			(effects
 				(font

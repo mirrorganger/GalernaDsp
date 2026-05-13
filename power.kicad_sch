@@ -4409,6 +4409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 233.68 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2153621f-a43f-474c-b00e-b88312377008")
 		)
@@ -4545,6 +4554,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2cbfc80-8034-44a7-be5b-774d81635c12")
 		)
@@ -4612,7 +4630,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C408423"
+		(property "LCSC Part" "C132135"
+			(at 185.42 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MWSA0618S-100MT"
+			(at 185.42 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SUNLORD"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -4691,6 +4727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9f51b1f-068e-4551-9ad6-a83fb50157f5")
 		)
@@ -4752,6 +4797,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 69.85 125.73 0)
 			(effects
 				(font
@@ -4828,6 +4882,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -5116,6 +5179,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "842d00aa-8345-45a1-8599-1d377ce97737")
 		)
@@ -5261,7 +5333,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7519"
+		(property "LCSC Part" "C7519"
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "USBLC6-2SC6"
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 78.74 105.41 0)
 			(effects
 				(font
@@ -5355,7 +5445,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20617301"
+		(property "LCSC Part" "C20617301"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SPX3819M5-L-3-3"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -5593,7 +5701,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C141836"
+		(property "LCSC Part" "C141836"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TLV62569DBVR"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 166.37 115.57 0)
 			(effects
 				(font
@@ -5679,6 +5805,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5895,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af5c649f-97b5-4a7b-881c-e1434529f0b3")
 		)
@@ -5957,6 +6101,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -6035,6 +6188,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d21d5790-cb82-4cea-97be-cf0dae924281")
 		)
@@ -6102,7 +6264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "GZ2012D601TF"
+		(property "LCSC Part" "C1017"
 			(at 124.46 53.34 90)
 			(effects
 				(font
@@ -6111,7 +6273,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "GZ2012D601TF"
+		(property "Manufacturer Part" "GZ2012D601TF"
+			(at 124.46 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
 			(at 124.46 53.34 90)
 			(effects
 				(font
@@ -6188,7 +6359,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC Part" "C2765186"
+			(at 36.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TYPE-C 16PIN 2MD(073)"
+			(at 36.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
 			(at 36.83 111.76 0)
 			(effects
 				(font
@@ -6312,6 +6501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" ""
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5fbef1cb-b14c-4a73-8542-b00ddf73dc45")
 		)
@@ -6379,6 +6577,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 194.31 66.04 0)
 			(effects
 				(font
@@ -6526,6 +6733,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
 			(at 207.01 119.38 0)
 			(effects
 				(font
