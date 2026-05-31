@@ -2408,6 +2408,26 @@
 		)
 		(uuid "f4cd9bb6-5b3c-4702-9fb1-b67b617031c4")
 	)
+	(text_box "C29/30 1u\nR17/18 22k \n\nfc -> 7Hz "
+		(exclude_from_sim no)
+		(at 91.44 185.42 0)
+		(size 26.67 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2fd4f719-3773-4e89-ad0a-a36226063897")
+	)
 	(text_box "Audio Codec\n===========\n\nDecoupling capacitors\n\nFor each supply pin (or each supply \"domain\" pin):\n\n1× 100 nF MLCC placed right at that pin (same side, shortest loop to GND)\n\nPer rail (shared):\n\n1× bulk cap (typically 4.7-10 µF) near the codec on that rail\n\nThis gives:\n\nHF stability (100 nF)\n\nMF/LF charge storage (bulk)"
 		(exclude_from_sim no)
 		(at 260.35 125.73 0)
@@ -5042,7 +5062,7 @@
 				)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "1u"
 			(at 118.11 221.234 90)
 			(effects
 				(font
@@ -5126,7 +5146,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "200k"
 			(at 205.74 66.0399 0)
 			(effects
 				(font
@@ -6254,7 +6274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 120.65 0)
 			(effects
 				(font
@@ -6332,7 +6352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.6852 120.65 0)
 			(effects
 				(font
@@ -7236,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "1u"
 			(at 118.11 208.026 90)
 			(effects
 				(font
@@ -8214,7 +8234,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1001TCE"
+			(at 220.98 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 220.98 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 220.98 59.69 90)
 			(effects
 				(font
@@ -9448,7 +9486,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "200k"
 			(at 205.74 80.0099 0)
 			(effects
 				(font
@@ -9809,7 +9847,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1001TCE"
+			(at 220.98 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 220.98 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 220.98 74.93 90)
 			(effects
 				(font

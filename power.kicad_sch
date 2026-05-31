@@ -2917,10 +2917,10 @@
 		)
 		(uuid "62db7f24-6dba-43ae-8d9a-61371d5b990f")
 	)
-	(text_box "Calculate the LED resistor based on the forward voltage (that depends on the color)\n"
+	(text_box "Led current\n\nI ≈ (3.3 - 2.1) / 1.5k ≈ 0.8 mA"
 		(exclude_from_sim no)
-		(at 238.125 110.49 0)
-		(size 34.925 7.62)
+		(at 236.855 109.22 0)
+		(size 36.195 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4373,7 +4373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 233.68 121.92 0)
 			(effects
 				(font
