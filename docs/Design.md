@@ -1,265 +1,219 @@
-# Galerna DSP
+# Galerna DSP — Design
 
-Galerna DSP will DSP board based on STM32 to produce audio effects.
+Galerna DSP is a DSP effects board based on the STM32F405, intended to process two
+audio channels in real time (guitar/line-level effects unit style: pots + footswitches +
+OLED status display).
 
-## Requirements
+This document describes the board as actually implemented in the KiCad project. Where the
+build diverged from the original requirements, that's called out explicitly.
 
-- Two audio channels input/output. No audio amplification.
-- 48KHz / up to 24 bit sample width
-- 8 potentiometers. Read through a Multiplexer
-- 2 mechanical switches
-- 2 buttons
-- USB C powered
-- SWD debug
-- OLED screen SSD1306 
-- IO extension header 
+## Requirements (original intent)
 
-### Power Section 
+- Two audio channels input/output.
+- 48 kHz / up to 24-bit sample width.
+- 8 potentiometers, read through a multiplexer.
+- 2 mechanical switches.
+- 2 buttons.
+- USB-C powered.
+- SWD debug.
+- OLED screen.
+- IO extension header.
 
-The power of the board will be done through USB C.
+## As-built summary
 
-There will be two power rails
- 
- - 3.3V for the digital section
- - 3.3A clean analog power mostly for the Audio Codec
+- Two audio channels in/out over I2S, plus a dedicated headphone output — a headphone
+  amplifier was added, which was not in the original "no audio amplification" requirement.
+- 8 potentiometers wired through a CD4051 analog mux to a single ADC input.
+- 2 mechanical switches + 2 buttons for footswitch-style control.
+- USB-C powered, split into a digital 3.3 V buck rail and a clean analog 3.3 V LDO rail.
+- SPI OLED status display.
+- microSD card slot (SDIO) for storage — not in the original requirements list.
+- SWD debug and IO expansion share a single 2×5, 1.27 mm JST-GH header (CN1).
+- 4-layer PCB, no analog/digital ground split, no controlled impedance (USB FS is the
+  only differential pair, and it isn't critical).
 
-For that, two voltage regulators will be used.
- 
- - Switching Buck regulator for digital rail
- - Low Voltage Drop (LDO) for the analog rail
+## Schematic sheets
 
-## Design choices
+The KiCad project (`GalernaDsp.kicad_sch`) is split into four sub-sheets:
 
-- 4 layer board 
-- No split GND for analog and digtial
-- Audio Input and Output with 3.5mm Jacks.
+| Sheet | File | Contents |
+|---|---|---|
+| Power | `power.kicad_sch` | USB-C input, ESD protection, buck + LDO regulators |
+| MCU | `mcu.kicad_sch` | STM32F405RGT6, crystal, OLED, microSD, IO/SWD header, reset/power switches |
+| Audio | `audio_codec.kicad_sch` | Audio codec, headphone amplifier, audio jacks |
+| Input Control | `input_control.kicad_sch` | 8 potentiometers, mux, footswitches, buttons |
 
+## Bill of materials (as built)
 
-## PARTS
+| Function | Part | Reference(s) | Notes |
+|---|---|---|---|
+| Microcontroller | STM32F405RGT6 (LQFP-64) | U (mcu) | Matches original plan |
+| Audio codec | **ES8388** | U (audio) | **Changed from the originally planned WM8731SEDS** during layout (see commit "Codec updated to ES8388") |
+| Headphone amplifier | TPA6110A2DGN | U (audio) | Added — original requirements said "no audio amplification" |
+| Headphone volume pot | RK09L12D0A1W | R16 | Local pot for headphone amp gain |
+| OLED display | ER-OLEDM015-SPI | — | SPI display module; **changed from the originally planned SSD1306 part** (verify controller compatibility before reusing old pin-mapping notes) |
+| Effect potentiometers ×8 | PTV09A-4225F-B104 | POT_1…POT_8 | Read through the mux below |
+| Analog mux | CD4051BM | — | Routes the 8 pots to a single ADC channel |
+| Mechanical switches ×2 | 100SP1T1B4M2QE | SW1, SW2 | |
+| Buttons ×2 | 1825910-6 | BTN1, BTN2 | |
+| Boot mode switch (RUN/DFU) | SS12D10G5 | SW_1 | Selects BOOT0 state |
+| Reset button | TS-1088-AR02016 | SW_2 | |
+| Audio jacks ×3 | AudioJack4 (3.5 mm) | J2, J3, J4 | Line in, line out, headphone out |
+| microSD slot | HRS DM3CS-SF | J1 | Right-angle SMT microSD holder, on SDIO |
+| SWD / IO expansion header | JST-GH 2×5, 1.27 mm | CN1 | Shared header for debug + expansion |
+| Crystal | X1E000210127000G | X1 | MCU clock |
+| USB-C receptacle | USB4105-GF-A (generic KiCad symbol) | — | |
+| ESD protection (USB) | USBLC6-2SC6 | — | |
+| ESD protection array (MCU IO) | RCLAMP0521P-N | — | |
+| Buck regulator (digital 3V3) | TLV62569DBV | — | |
+| LDO regulator (analog 3V3) | SPX3819M5-L-3-3 | — | |
 
-IC's selected 
+Full BOM with LCSC part numbers lives in `GalernaDsp.csv` at the project root, and
+JLCPCB assembly data lives in `jlcpcb/production_files/`.
 
-| Component                   | Part Name               | LCSC Part Number |
-|-----------------------------|-------------------------|------------------|
-| Microcontroller             | STM32F405RGT6 (LQFP-64) |                  |
-| Audio Codec                 | WM8731SEDS              |                  |
-| OLED Screen                 | SSD1306                 |                  |
-| Multiplexer                 | CD4051BM96G4            |                  |
-| Buck Switching Regulator    | TLV62569DBV             |                  |
-| LDO Regulator               | SPX3819M5-L-3-3         |                  |
-| USB C Receptacle            | USB4105-GF-A            |                  |
-| ESD protection              | USBLC6 - 2SC6           |                  |
-| Audio Jacks (x2)            | PJ-320D                 | C431535          |          
+## Power section
 
+Power comes in over USB-C and is split into two 3.3 V rails:
 
-### Current estimation
+- **3V3_D** (digital) — switching buck regulator, TLV62569DBV.
+- **3V3_A** (analog) — LDO, SPX3819M5-L-3-3, feeding the codec's analog domain for lower
+  noise than the buck rail could provide.
 
-Rough current consumption estimate (3.3 V rails)
+### Current budget (3.3 V rails)
 
-#### STM32F405 (3.3 V digital rail)
+| Rail | Load | Estimate |
+|---|---|---|
+| 3V3_D | STM32F405 | 90–130 mA |
+| 3V3_D | OLED | 5–25 mA |
+| 3V3_D | Mux + pullups, misc | 5–15 mA |
+| 3V3_D | **Budget** | **~200 mA** |
+| 3V3_A | Audio codec | ~20 mA typical |
+| 3V3_A | **Budget** | **~25–50 mA** |
 
-ST’s datasheet typical run current at 168 MHz:
+Total ≈ 250 mA at 3.3 V (≈ 0.83 W). At 85–92% buck efficiency that's roughly 180–200 mA
+drawn from 5 V USB — comfortably inside USB power limits.
 
-~87 mA typical with peripherals enabled (conditions-dependent)
+### Analog rail filtering
 
-Realistically, once you add clocks, GPIO toggling, DMA, I2S, etc., budgeting ~90–130 mA for the MCU is reasonable (more if you drive lots of IO hard or enable extra analog blocks).
+After the LDO, a ferrite bead plus local decoupling filters the MCU's `VDDA` pin (ferrite
+beads add impedance at high frequency, keeping switching noise off the analog supply):
 
-##### WM8731 audio codec (mostly on 3.3 V analog rail)
+![MCU VDDA decoupling](mcu_vdda_decoupling.png)
 
-WM8731 “Record and Playback” typical currents at 3.3 V rails (quiescent, no signal):
-
-AVDD: 13.1 mA
-
-HPVDD: 1.7 mA
-
-DCVDD: 3.0 mA
-
-DBVDD: 1.5 mA
-
-Total ≈ 19.3 mA (and it can be a bit higher depending on configuration and what outputs you’re driving).
-
-##### SSD1306 OLED (3.3 V rail)
-
-This varies wildly with brightness and pixel fill. Many common 0.96" SSD1306 modules quote around:
-
-~20 mA typical “depending on active pixels”
-
-Budget 5–25 mA (and assume closer to the high end if you keep it bright).
-
-##### CD4051 mux (3.3 V rail)
-
-Negligible compared to the above (typically microamps to low hundreds of microamps; call it <1 mA worst-case for budgeting).
-
-##### “Board overhead”
-
-LEDs (if any), pullups, USB interface bits, etc.: 5–20 mA depending on what you add.
-
-Totals (good budgeting numbers)
-Digital 3V3_D (buck rail)
-
-##### Results
-
-STM32F405: 90–130 mA
-
-OLED: 5–25 mA
-
-CD4051 + buttons/switch pullups, misc: 5–15 mA
-
-Budget 3V3_D ≈ 120–170 mA (call it 200 mA to be safe).
-
-Analog 3V3_A (LDO rail)
-
-WM8731: ~20 mA typical (record+play)
-
-Plus any extra analog reference/filters you power from 3V3_A: usually small
-
-Budget 3V3_A ≈ 25–50 mA (generous).
-
-Whole board (from 5 V USB, through buck+LDO)
-
-If 3V3_D is ~200 mA and 3V3_A is ~50 mA, total 3.3 V load is ~250 mA.
-
-Power at 3.3 V: 3.3 V × 0.25 A = 0.825 W.
-
-From 5 V input, with (say) 85–92% buck efficiency, you’re around:
-
-~0.18–0.20 A from USB 5 V (≈ 180–200 mA)
-
-So you’re comfortably below common USB power limits.
-
-
-### Low Dropout regulator
-
-SPX3819M5-L-3-3
-
-Add some extra filtering for the analog parts.
-
-![alt text](image.png)
-
-Once the 3.3 V is generated, place a FerriteBead. The FerriteBead adds resistance at high frequencies.
-
-### Buck Converter
-
-#### Inductor calculation
+### Buck converter inductor selection
 
 $$
-L = \frac{V_{out} . (V_{in} - V_{out}) }{V_{in} * f_{sw} . \Delta I_l}
+L = \frac{V_{out} \cdot (V_{in} - V_{out})}{V_{in} \cdot f_{sw} \cdot \Delta I_L}
 $$
 
-Where $ \Delta I_l $ is the inductor ripple current. Aim for 20%-30% of the maximum ouput current.
+Where $\Delta I_L$ (inductor ripple current) is targeted at 20–30% of max output current.
 
-Expected values
+- $V_{out} = 3.3\text{V}$, $V_{in} = 4.5$–$5\text{V}$, $f_{sw} = 1.5\text{MHz}$, $I_{max} = 250\text{mA}$
+- $\Delta I_L = 0.200\text{A} \times 0.25 = 0.0625\text{A}$
+- Calculated $L \approx 12\mu H$ → used a 10 µH inductor.
 
-$V_{out} = 3.3 V$
+### Fuse options considered
 
-$V_{in} = 4.5 V$ to $ 5 V$
+- Littelfuse 0603L050YR — 500 mA hold, 0603, easiest SMT routing.
+- 1206 SMD 500 mA PPTC — larger pads, easier hand/JLC assembly.
+- 1210 0.5 A resettable fuse — most robust, needs more board space.
 
-$f_{sw} = 1.5 MHz$
+## Audio codec (ES8388)
 
-$I_{max} = 250 mA$
+Use LINE IN, not MIC IN.
 
-$\Delta I_l = 0.200 A * 0.25 = 0.0625 A$
+### Decoupling
 
-So 
+Per supply pin: 1× 100 nF MLCC at the pin (shortest loop to GND). Per rail (shared): 1×
+bulk cap (4.7–10 µF) near the codec.
 
-$L  = 12uH$
+- Digital: 10 µF bulk + 100 nF on DVDD + 100 nF on DBVDD.
+- Analog: 10 µF bulk + 100 nF on AVDD + 100 nF on HPVDD (HPVDD unused on this board).
 
-Used 10u
+### Input path
 
+```
+AUDIO_IN → 1k → ● → 2.2µF → CODEC_IN
+                 │
+                 ├─ 200k → GND
+                 └─ 220p → GND
+```
 
+- **2.2 µF AC coupling**: blocks DC, lets the codec bias the input to VMID. Forms a
+  high-pass with the codec's ~20–30 kΩ input impedance: $f_c \approx 3.6\text{Hz}$, well
+  below the audio band.
+- **200 kΩ to GND**: discharge path for the coupling cap; sets input impedance with
+  nothing plugged in.
+- **220 pF / 1 kΩ RF filter**: rolls off RF picked up by the cable ($f_c \approx 723\text{kHz}$);
+  the resistor also limits current during ESD events.
 
-#### Posible fuse
+### Output path
 
-Best choice if you want tiny, low-profile, and easy SMT routing:
-👉 Littelfuse 0603L050YR — 500 mA hold, fits 0603 footprint, easy for JLCPCB to place.
+Concerns between the codec and the 3.5 mm jacks: DC compatibility (codec biased to
+VMID ≈ 1.65 V, jack is 0 V), RF/EMI filtering, output impedance/stability, and
+protection against ESD/hot-plugging.
 
-Best choice if you want easier routing + hand assembly (or JLC assembled):
-👉 1206SMD 500 mA PPTC Fuse — larger pads, more forgiving placement.
+- **AC coupling (~1 µF)**: blocks the codec's DC bias so the jack sees a signal centered
+  at 0 V. Without it: DC on external gear, pops, possible damage.
+- **Series resistor (~100 Ω)**: isolates the codec from cable capacitance, improves
+  driver stability, reduces pop energy, limits fault current on a shorted jack.
+- **Pulldown (~100 kΩ to GND)**: defines the output with nothing connected, reduces
+  plug/unplug pops, negligible effect on audio level.
 
-Best for future-proof / more robust current handling:
-👉 1210 0.5 A Resettable Fuse — larger size ideal if board space allows.
+## Headphone amplifier (TPA6110A2DGN)
 
+Added beyond the original spec to drive headphones directly from a dedicated 3.5 mm
+jack, with its own volume pot (R16, RK09L12D0A1W). See git history for the original
+routing notes; layout follows standard TPA6110 application guidance (star ground for
+the amp, short high-current loops to the output caps/jack).
 
-## Steps
+## Crystal oscillator
 
-- Select componets
-- Calculate power reqs
-- Select Regulator
+Pierce oscillator, per ST's reference circuitry:
 
+![Pierce oscillator circuitry](crystal_oscillator_pierce.png)
 
-## Crystal Oscillator
+$R_{ext}$ and $C_L$ form a low-pass filter for harmonics above the crystal fundamental;
+$R_{ext}$ also reduces drive strength over the crystal to cut harmonics.
 
-![alt text](image-3.png)
+- Values to choose: crystal (Q), load capacitance ($C_{L1}$/$C_{L2}$), $R_{ext}$.
+- Values to account for: stray capacitance $C_s$ (typ. 3–5 pF), internal feedback
+  resistor $R_F$.
+- Example crystal: $f_0 = 16\text{MHz}$, $C_0 = 9\text{pF}$, ESR ≈ 80 Ω, 3225 package.
 
-R_ext and C_l for a low pass filter for harmonics higher than the crystal 
+$$
+C_L = 2 \cdot (C_0 - C_s) \approx 8\text{–}12\text{pF}
+$$
 
-R_ext also reduces the drive strength over the crystal to reduce the harmonics.
+$$
+R_{ext} \approx 10\% \times \frac{1}{2\pi f_0 C_0} = \frac{1}{2\pi \times 24\text{MHz} \times 9\text{pF}} \approx 73\,\Omega \Rightarrow \text{100 }\Omega \text{ used}
+$$
 
+## Footprints used
 
-#### Values to choose:
+| Part | Footprint |
+|---|---|
+| Caps 22 µF | 0805 (2012 metric) |
+| Caps 10 µF | 0603 |
+| Caps 1 µF | 0603 (1608 metric) |
+| Caps 100 nF | 0402 (1005 metric) |
+| Caps 1 nF / 10 pF | 0402 (1005 metric) |
+| LEDs | 0603 or 0805 |
+| Resistors | 0402 |
+| Ferrite beads | 0805 or 0603 |
 
-- Q : Crstal
-- Load Capacitance : C_l1 / C_l2
-- R_ext : external resistor to limit the inverter ouput current
+## PCB design notes
 
-#### Values to take into account
+- 4-layer stackup: F.Cu / In1.Cu (plane) / In2.Cu (plane) / B.Cu.
+- No controlled impedance needed — the only differential pair is USB FS, and it isn't
+  critical.
+- No split ground plane between analog and digital.
+- Connectors for GPIO expansion use JST-GH.
+- microSD placement followed the LeDsp module's layout as a reference.
 
-- Stray capacitance : C_s
-- R_f : Internal feedback resistor
+## Firmware status
 
-##### Crytal properties
-
-- Frequency, f_0 e.g. 16Mhz 
-- Load capacitance C0, e.g. 10pF 
-- ESR Equivalent series resistor. e.g 80 ohms
-- Package. e.g. 3225
-
-
-C_s, tipically between 3pF to 5pF
-C_o 9pF
-
-
-
-C_l = 2 * (C_o - C_s)
-
-C_l = 8pF, 12pF
-
-R_ext  = 10% of 1 / 2*pi*f_0*C_o = 1 / 2 * pi * 24*10⁶ * 9*10^⁻12 = 73 => 100 ohm
-
-
-### Connectors for GPIO
-
-jst gh
-
-### Footprints
-
-Caps
-22u 0805_2012
-10u 0603
-1u 0603_1608
-10 
-100n 0402_1005
-1n 0402_1005 
-10p 0402_1005
-
-Leds
-0402_1005 or 0603_1608
-
-Res
-0402
-Ferite
-0805
-
-Inductor
-
-### PCB design
-
-No impedance control needed. The Only differential pair is USB FS. Not critical.
-
-#### SD card
-
-Look at LeDsp module SD card placement.
-
-
-
-
+`cubeMx/` holds an STM32CubeMX-generated project for the STM32F405RGT6 with ADC1, I2C2
+(codec control), I2S2 (audio data), SDIO (microSD), SPI1 (OLED), and USB_OTG_FS
+configured. As of now it's the generated peripheral-init skeleton only — no DSP effect
+processing has been implemented in application code yet.

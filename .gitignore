@@ -4,3 +4,7 @@
 *.*-bak
 *.log
 *.ini
+cubeMx/Drivers
+cubeMx/build
+cubeMx/Core
+CLAUDE.md
