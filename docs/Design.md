@@ -68,8 +68,8 @@ The KiCad project (`GalernaDsp.kicad_sch`) is split into four sub-sheets:
 | Buck regulator (digital 3V3) | TLV62569DBV | — | |
 | LDO regulator (analog 3V3) | SPX3819M5-L-3-3 | — | |
 
-Full BOM with LCSC part numbers and JLCPCB assembly data lives in `GalernaDsp.xlsx` /
-`GalernaDsp.csv` at the project root, and in `jlcpcb/production_files/`.
+Full BOM with LCSC part numbers lives in `GalernaDsp.csv` at the project root, and
+JLCPCB assembly data lives in `jlcpcb/production_files/`.
 
 ## Power section
 
@@ -135,14 +135,14 @@ bulk cap (4.7–10 µF) near the codec.
 ```
 AUDIO_IN → 1k → ● → 2.2µF → CODEC_IN
                  │
-                 ├─ 220k → GND
+                 ├─ 200k → GND
                  └─ 220p → GND
 ```
 
 - **2.2 µF AC coupling**: blocks DC, lets the codec bias the input to VMID. Forms a
   high-pass with the codec's ~20–30 kΩ input impedance: $f_c \approx 3.6\text{Hz}$, well
   below the audio band.
-- **220 kΩ to GND**: discharge path for the coupling cap; sets input impedance with
+- **200 kΩ to GND**: discharge path for the coupling cap; sets input impedance with
   nothing plugged in.
 - **220 pF / 1 kΩ RF filter**: rolls off RF picked up by the cable ($f_c \approx 723\text{kHz}$);
   the resistor also limits current during ESD events.
@@ -198,9 +198,9 @@ $$
 | Caps 1 µF | 0603 (1608 metric) |
 | Caps 100 nF | 0402 (1005 metric) |
 | Caps 1 nF / 10 pF | 0402 (1005 metric) |
-| LEDs | 0402 or 0603 |
+| LEDs | 0603 or 0805 |
 | Resistors | 0402 |
-| Ferrite beads | 0805 |
+| Ferrite beads | 0805 or 0603 |
 
 ## PCB design notes
 
