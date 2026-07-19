@@ -1,0 +1,57 @@
+name: KiCad ERC/DRC
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  erc-drc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Schematic ERC (full report, informational)
+        run: |
+          docker run --rm -v "$PWD:/work" -w /work --user "$(id -u):$(id -g)" kicad/kicad:9.0 \
+            kicad-cli sch erc GalernaDsp.kicad_sch \
+              --severity-all \
+              --format report \
+              -o erc-report.txt
+
+      - name: Schematic ERC (fail on errors)
+        run: |
+          docker run --rm -v "$PWD:/work" -w /work --user "$(id -u):$(id -g)" kicad/kicad:9.0 \
+            kicad-cli sch erc GalernaDsp.kicad_sch \
+              --severity-error \
+              --exit-code-violations \
+              --format report \
+              -o /dev/null
+
+      - name: PCB DRC (full report, informational)
+        run: |
+          docker run --rm -v "$PWD:/work" -w /work --user "$(id -u):$(id -g)" kicad/kicad:9.0 \
+            kicad-cli pcb drc GalernaDsp.kicad_pcb \
+              --severity-all \
+              --format report \
+              -o drc-report.txt
+
+      - name: PCB DRC (fail on errors)
+        run: |
+          docker run --rm -v "$PWD:/work" -w /work --user "$(id -u):$(id -g)" kicad/kicad:9.0 \
+            kicad-cli pcb drc GalernaDsp.kicad_pcb \
+              --severity-error \
+              --exit-code-violations \
+              --format report \
+              -o /dev/null
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-erc-drc-reports
+          path: |
+            erc-report.txt
+            drc-report.txt
