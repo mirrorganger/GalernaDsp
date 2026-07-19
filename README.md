@@ -1,5 +1,7 @@
 # Galerna DSP
 
+[![KiCad ERC/DRC](https://github.com/mirrorganger/GalernaDsp/actions/workflows/kicad-checks.yml/badge.svg?branch=master)](https://github.com/mirrorganger/GalernaDsp/actions/workflows/kicad-checks.yml)
+
 ![Galerna DSP board render](GalernaDsp.jpg)
 
 Galerna DSP is a KiCad hardware project for an STM32-based audio effects board: two
