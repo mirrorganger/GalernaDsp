@@ -210,6 +210,16 @@ $$
 - No split ground plane between analog and digital.
 - Connectors for GPIO expansion use JST-GH.
 - microSD placement followed the LeDsp module's layout as a reference.
+- **J5 (USB-C receptacle) intentionally diverges from the stock `Connector_USB` library
+  footprint**: its two unnamed NPTH mounting/alignment holes are set to `*.Cu` (all
+  copper layers) instead of the library default `F&B.Cu` (front/back only). The board's
+  GND plane (net `GND`) is poured across both inner layers (`In1.Cu`/`In2.Cu`) under the
+  full connector area, so widening those pads to `*.Cu` is required to get proper copper
+  clearance around the mounting holes on the inner layers during zone fill — with the
+  library default, the plane would pour solid copper straight across the drilled holes
+  on `In1.Cu`/`In2.Cu` with no clearance. This shows up as a `lib_footprint_mismatch` DRC
+  warning; it's expected and should be excluded rather than "fixed" back to the library
+  footprint.
 
 ## Firmware status
 
